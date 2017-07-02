@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 1e2f1c9937091764d9db42653fdb6cfd
+timeCreated: 1486047420
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 2
+  fontSize: 50
+  forceTextureCase: -1
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 0
+  use2xBehaviour: 0
+  fontNames: []
+  fallbackFontReferences: []
+  customCharacters: "0123456789abcdefghijklmn\xF1opqrstuvwxyz:ABCDEFGHIJKLMN\xD1OPQRSTUVWXYZ-_"
+  fontRenderingMode: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
