@@ -213,7 +213,7 @@ void Update (){
 
 
 ## Contact
-[NexPlayer™ SDK](https://nexplayersdk.com/)
+[NexPlayer™ SDK](https://nexplayersdk.com/request/)
 
 ## License
 [NexPlayer for Unity Product License](Assets/NexPlayer/License.txt)
