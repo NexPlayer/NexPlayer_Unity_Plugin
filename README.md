@@ -4,7 +4,7 @@
 
 NexPlayer™ for Unity is a multiscreen streaming player for Unity apps that supports both standard and 360 video playback across all Android, iOS and PC devices. NexPlayer™ for Unity is the only playback solution for Unity that supports HLS &amp; DASH live streaming across all devices, advanced events and out of the box 360 video navigation.
 
-This repository contais the sample demo code of NexPlayer™ plugin. The full working demo is available on our [website](https://nexstreaming.com/products/nexplayer-for-unity).
+This repository contais the sample demo code of NexPlayer™ plugin. The full working demo is available on our [website](https://nexplayersdk.com/nexplayer-unity/).
 
 ![NexPlayer Plugin](images/screen_hls_obj.png)
 
@@ -39,7 +39,7 @@ This repository contais the sample demo code of NexPlayer™ plugin. The full wo
 
 
 ## NexPlayer360™
-NexPlayer™ Plugin for Unity includes many of the features of [NexPlayer360 SDK](https://nexstreaming.com/products/nexplayer-360-sdk), such as:
+NexPlayer™ Plugin for Unity includes many of the features of [NexPlayer360 SDK](https://nexplayersdk.com/nexplayer-360/), such as:
 - Touch input, including movement, zoom and rotation of the camera
 - Gyroscope input to move the camera
 - Mouse input to move the camera
@@ -55,7 +55,7 @@ Here the official [documentation](Assets/NexPlayer/NexPlayer_Plugin_for_Unity_Re
 
 ## How to use it
 
-Contact us in order to obtain the [full working demo](https://nexstreaming.com/products/nexplayer-for-unity).
+Contact us in order to obtain the [full working demo](https://nexplayersdk.com/download/).
 
 ### Quick start
 #### 1) Play standard video
@@ -213,7 +213,7 @@ void Update (){
 
 
 ## Contact
-[NexPlayer™ SDK](https://www.nexstreaming.com)
+[NexPlayer™ SDK](https://nexplayersdk.com/)
 
 ## License
 [NexPlayer for Unity Product License](Assets/NexPlayer/License.txt)
