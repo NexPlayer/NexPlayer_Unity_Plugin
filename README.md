@@ -216,7 +216,7 @@ void Update (){
 [NexPlayer™ SDK](https://nexplayersdk.com/request_unity_demo/)
 
 ## Contact
-[Support](mailto:supportmadrid@nexstreaming.com)
+[supportmadrid@nexstreaming.com](mailto:supportmadrid@nexstreaming.com)
 
 ## License
 [NexPlayer for Unity Product License](Assets/NexPlayer/License.txt)
