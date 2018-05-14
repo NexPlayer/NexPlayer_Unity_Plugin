@@ -1,5 +1,3 @@
-## Request demo
-[NexPlayer™ SDK](https://nexplayersdk.com/unity-player-sdk-demo/)
 ## NexPlayer™ Unity Plugin
 
 ![NexPlayer demo home ](images/unity_demo_home.gif)
