@@ -1,17 +1,18 @@
 ## NexPlayer™ Unity Plugin
 
-![NexPlayer demo home ](images/unity_demo_home.gif)
+![NexPlayer demo home ](resources/unity_demo_home.gif)
 
 NexPlayer™ for Unity is a multiscreen streaming player for Unity apps that supports both standard and 360 video playback across all Android, iOS and PC devices. NexPlayer™ for Unity is the only playback solution for Unity that supports HLS &amp; DASH live streaming across all devices, advanced events and out of the box 360 video navigation.
 
 This repository contais the sample demo code of NexPlayer™ plugin. The full working demo is available on our [website](https://nexplayersdk.com/nexplayer-unity/).
 
-![NexPlayer Plugin](images/screen_hls_obj.png)
+![NexPlayer Plugin](resources/screen_demo_cube.png)
 
 ## Features
 
 - Support protocols for ABR algorithm, including HLS and DASH
 - Support for progressive download (eg. online .mp4)
+- Support local videos
 - Complete API including:
     - Play / Pause
     - Seek
@@ -22,20 +23,14 @@ This repository contais the sample demo code of NexPlayer™ plugin. The full wo
     - Track change
     - State of the playback
 - Widevine DRM on Android and iOS for DASH videos
+- DRM on local videos and streaming
 
 ## Supported Platform
 | Platform | Supported Graphics APIs | HLS | DASH | Local | Inside App (Streaming Assets) |
 | ------ | ------ | ------ | ------ | ------ | ------ |
-| Windows 8 and above (x86 and x64) | Direct3D11 (aka DX11) with feature level 9.3 and above | O | O | O | O |
-| Windows Editor (Unity 5.3.5 and above) | Direct3D11 (aka DX11) with feature level 9.3 and above | O | O | O | O |
 | Android (armeabi-v7a and x86) | OpenGLES2, OpenGLES3 | O | O | O | O |
 | iOS | OpenGLES2, OpenGLES3, Metal | O | O | O | O |
-| WebGL | WebGL 1, WebGL 2 | O | O | X | O |
 
-
-## Demo WebGL
-
-[https://d7wce5shv28x4.cloudfront.net/WebGL_Unity/NexPlayer/index.html](https://d7wce5shv28x4.cloudfront.net/WebGL_Unity/NexPlayer/index.html)
 
 
 ## NexPlayer360™
@@ -62,19 +57,19 @@ Contact us in order to obtain the [full working demo](https://nexplayersdk.com/u
 
 Create a new [Unity](https://unity3d.com/) project and import the NexPlayer™ Plugin.
 
-![NexPlayer Plugin](images/import.png)
+![NexPlayer Plugin](resources/import_package.png)
 
 In order to load the player [Scene](https://docs.unity3d.com/Manual/UsingTheSceneView.html) follow the path: 'Assets/NexPlayer/Scenes' and open 'NexPlayer raw video.unity' with double click.
 Test the playback selecting play button in the editor.
 
-![NexPlayer Plugin](images/screen_hls_scene.png)
+![NexPlayer Plugin](resources/playback_demo.png)
 
 #### 2) Play 360 scene
 
 Load the 360 [Scene](https://docs.unity3d.com/Manual/UsingTheSceneView.html) available in 'Assets/NexPlayer/NexPlayer360/Scenes/NexPlayer360.unity'.
 Test the playback selecting play button in the editor.
 
-![NexPlayer Plugin](images/360_scene.gif)
+![NexPlayer Plugin](resources/360_scene.gif)
 
 #### 3) Load NexPlayer™ demo
 
@@ -88,7 +83,7 @@ Add the following scenes to the Unity build:
 
 Switch to the desired platform.
 
-![Load Demo](images/load_scenes.png)
+![Load Demo](resources/build_settings.png)
 
 
 #### 4) Configuration steps
@@ -114,7 +109,7 @@ A quick and easy way to enable these settings is using the helper component
 If "Oculus" is selected, remember to [generate the OSIG file](https://developer.oculus.com/osig/) for the device and add it into 'Assets/Plugins/Android/Assets'.
 
 
-![VR mode](images/vr_oculus.png)
+![VR mode](resources/vr_oculus.png)
 
 ### NexPlayer™ integration
 
@@ -212,11 +207,8 @@ void Update (){
 -------------------
 
 
-## Request demo
-[NexPlayer™ SDK](https://nexplayersdk.com/unity-player-sdk-demo/)
-
 ## Contact
 [supportmadrid@nexstreaming.com](mailto:supportmadrid@nexstreaming.com)
 
 ## License
-[NexPlayer for Unity Product License](Assets/NexPlayer/License.txt)
+[NexPlayer for Unity Product License](resources/License.txt)
