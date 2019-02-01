@@ -4,7 +4,7 @@
 
 NexPlayer™ for Unity is a multiscreen streaming player for Unity apps that supports both standard and 360 video playback across all Android, iOS and PC devices. NexPlayer™ for Unity is the only playback solution for Unity that supports HLS &amp; DASH live streaming across all devices, advanced events and out of the box 360 video navigation.
 
-This repository contais the sample demo code of NexPlayer™ plugin. The full working demo is available on our [website](https://nexplayersdk.com/nexplayer-unity/).
+This repository contais the sample demo code of NexPlayer™ plugin. If you want to get our full working demo, contact us in our [website](https://www.nexplayersdk.com/contact/).
 
 ![NexPlayer Plugin](resources/screen_demo_cube.png)
 
@@ -50,7 +50,6 @@ Here the official [documentation](NexPlayer_Plugin_for_Unity_Reference_Manual.pd
 
 ## How to use it
 
-Contact us in order to obtain the [full working demo](https://nexplayersdk.com/unity-player-sdk-demo/).
 
 ### Quick start
 #### 1) Play standard video
@@ -75,11 +74,10 @@ Test the playback selecting play button in the editor.
 
 Add the following scenes to the Unity build:
 
-- Assets/NexPlayer/Scenes/ChooseMain.unity
 - Assets/NexPlayer/Scenes/MainMenu.unity
-- Assets/NexPlayer/Scenes/MainMenuVR.unity
-- Assets/NexPlayer/Scenes/NexPlayer game objects.unity
-- Assets/NexPlayer/Scenes/NexPlayer.unity
+- Assets/NexPlayer/Scenes/NexPlayer_MaterialOverride_Sample.unity
+- Assets/NexPlayer/Scenes/NexPlayer_RawImage_Sample.unity
+- Assets/NexPlayer/Scenes/NexPlayer_RenderTexture_Sample.unity
 
 Switch to the desired platform.
 
@@ -97,6 +95,7 @@ auto detect any conflict regarding the graphics API, and it will promptly solve 
 Android platform:
 - To allow any remote video select the true value for "Internet Access" option in the Unity
 player settings.
+- Set "Write Permision" to External (SDcard)
 
 iOS platform:
 - To view HTTP videos enable "Allow downloads over HTTP" option.
