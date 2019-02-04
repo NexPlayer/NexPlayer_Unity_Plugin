@@ -12,7 +12,7 @@ This repository contais the sample demo code of NexPlayer™ plugin. If you want
 
 - Support protocols for ABR algorithm, including HLS and DASH
 - Support for progressive download (eg. online .mp4)
-- Support local videos
+- Support local videos from local storage
 - Complete API including:
     - Play / Pause
     - Seek
@@ -93,7 +93,7 @@ component NexEditorHelper.cs is attached to any GameObject. It will include a gr
 auto detect any conflict regarding the graphics API, and it will promptly solve it.
 
 Android platform:
-- To allow any remote video select the true value for "Internet Access" option in the Unity
+- To allow any remote video select the "Require" value for "Internet Access" option in the Unity
 player settings.
 - Set "Write Permision" to External (SDcard)
 
@@ -118,18 +118,70 @@ texture. The URL and the text fields used to update the status can be personaliz
 
 A custom implementation of NexPlayer™ can also be done manually:
 
+#### Creating the player
+First the Nexplayer needs to be created, an action should be registered to receive the callbacks, the rendermode should be set, the target renderer should be set, the player should be initialized, and the coroutine needs to be started.
+
 ```
-void Start ()
+void Awake ()
 {
     // Creation of the NexPlayer instance
     player = NexPlayerFactory.GetNexPlayer();
-    // Register to the events of NexPlayer
+    
+    //Register to the events of NexPlayer
     player.OnEvent += EventNotify;
-    // Initialize NexPlayer with an URI
-    player.Init(URL, true, false);
-    // The coroutine needs to be started after the player is created an initialized
-    StartCoroutine(player.CoroutineEndOfTheFame());
-}
+    
+    //Default renderMode is RawImage
+    
+    switch (m_RenderMode)
+    {
+        case NexRenderMode.MaterialOverride:
+         player.renderMode =  NexRenderMode.MaterialOverride;
+         player.targetMaterialRenderer = renderer;
+        break;
+        case NexRenderMode.RenderTexture:
+         player.renderMode = NexRenderMode.RenderTexture;
+         player.targetTexture = renderTexture;
+         break;
+         case NexRenderMode.RawImage:
+          player.renderMode = NexRenderMode.RawImage;
+          player.targetRawImage = rawImage;
+          break;
+    }
+    
+    SetProperties();
+    //Initialize NexPLayer
+    NexPlayerError initResult = player.init(logLevel);
+    
+    URL = NexUtil.GetFulllUri(playType, URL);
+    subtitleURL = NexUtil.GetFulllUri(playType, subtitleURL);
+    
+    if (initResult == NexPlayerError.NEXPLAYER_ERROR-NONE)
+    {
+        OpenPlayer()
+    }
+    else
+    {
+        if (initResult == NexPlayerError.NEXPLAYER_INVALID_RENDERMODE_TARGET)
+        playerStatusText = "Render Fail";
+        else if ( initResult == NexPlayerError.NEXPLAYER_PLAYER_INIT_FAILURE)
+        playerStatusText = "Init Fail";
+        else if ( initResult == NexPlayerError.NEXPLAYER_TEXTURE_INIT_FAILURE)
+        playerStatusText = "Texture Fail"
+        
+        player = null
+    }
+
+    catch (System.Exception e)
+     {
+         Debug.LogError("Error while initializing the player. Please check that your platform is supported");
+         Debug.LogError("Exception: " + e);
+         playerStatusText = "Error";
+     }
+     finally
+      {
+         SetPlayerStatus(playerStatusText);
+       }
+ }
 ```
 
 The update method of the player needs to be called at the Update callback of the
@@ -138,44 +190,92 @@ MonoBehaviour object:
 ```
 void Update()
 {
-    player.Update();
+  if (player != null){ 
+      player.Update();
+   }
 }
 ```
 
-The previously used Action needs to be declared. It will provide a number of helpful callbacks.
-Properly assigning the texture to the material used by the game object should be done in the correct callback.
 
-```
-void EventNotify(NexPlayerEvent paramEvent, int param1, int param2)
-{
-    switch(paramEvent)
-    {
-        case NexPlayerEvent.NEXPLAYER_EVENT_TEXTURE_CHANGED:
-            // It's important to change the texture of every Unity object that should
-            display the video frame when this callback is called
-            GetComponent<Renderer>().material.mainTexture = player.GetTexture (); break;
-    }
-}
-```
-
-Release the player using the ClosePlayback method and wait for the
-NEXPLAYER_EVENT_CLOSED callback:
-
+#### Releasing the player
+To release the Nexplayer, call the Release method and wait for the NEXPLAYER_EVENT_CLOSED callback:
 ```
 public void ToogleQuit()
 {
-player.ClosePlayback();
-}
-
-void EventNotify(NexPlayerEvent paramEvent, int param1, int param2)
-{
+  if (this.gameObject.activeSelf == false)
+  {
+      return;
+  }
+  FinishGame();
+ }
+ 
+ private void FinishGame(){
+     if (player != null){
+         if (Application.platform == RuntimePlatform.WindowsEditor)
+         {
+             player.Close();
+             player.Release();
+             player = null;
+             GoBack();
+         }
+         else {
+             GoBack();
+         }
+     }
+     else {
+      GoBack();
+        }
+     }
+     
+ }
+ void EventNotify (NexPlayerEvent paramEvent, int param1, int param2){
+     ...
     switch (paramEvent)
     {
+        ...
         case NexPlayerEvent.NEXPLAYER_EVENT_CLOSED:
         {
-            Application.Quit();
+            ResetPlayerUI();
         }
         break;
+    }
+ }
+```
+
+#### Background status handling
+
+In Unity, check the state change(back/foreground) via OnApplicationPause function's parameteer value.
+If the application state is background, call Pause Function of the NexPlayer.
+When the state of the application becomes forground, calls the Resume Function of the NexPlayer.
+```
+void OnApplicationPause (bool pauseStatus){
+    Log("OnApplicationPause(" + pauseStatus + ")");
+    if (player != null)
+    {
+        //Go to Background
+        if (pauseStatus)
+        {
+            // Save current player status
+            playerStatus = player.GetPlayerStatus();
+            bApplicationPaused = true;
+            if (player.GetPlayerStatus() > NexPlayerStatus.NEXPLAYER_STATUS_STOP)
+            {
+                player.Pause();
+            }
+        }
+        //Return to Foreground
+        else 
+        {
+            if (bApplicationPaused)
+            {
+                if (player.GetPlayerStatus () > NexPlayerStatus.NEXPLAYER_STATUS_STOP && playerStatus == NexPlayerStatus.NEXPLAYER_STATUS_PLAY)
+                {
+                    player.Resume();
+                }
+                playerStatus = NexPlayerStatus.NEXPLAYER_STATUS_NONE;
+                bApplicationPaused = false;
+            }
+        }
     }
 }
 ```
