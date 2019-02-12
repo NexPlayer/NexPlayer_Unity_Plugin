@@ -45,7 +45,7 @@ NexPlayer™ Plugin for Unity includes many of the features of [NexPlayer360 SDK
 
 
 ## Documentation
-Here the official [documentation](NexPlayer_Plugin_for_Unity_Reference_Manual.pdf) of NexPlayer™ Unity Plugin.
+Here the official [documentation](Intergration_Guide.pdf) of NexPlayer™ Unity Plugin.
 
 
 ## How to use it
