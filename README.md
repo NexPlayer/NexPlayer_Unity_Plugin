@@ -30,7 +30,7 @@ This repository contains the sample demo code of NexPlayer™ plugin. If you wan
 | ------ | ------ | ------ | ------ | ------ | ------ |
 | Android (armeabi-v7a and x86) | OpenGLES2, OpenGLES3 | O | O | O | O |
 | iOS | OpenGLES2, OpenGLES3, Metal | O | O | O | O |
-| Windows | OpenGLES2, OpenGLES3 | O | O | O | O |
+| Windows | DirectX11 | O | O | O | O |
 
 
 
@@ -122,7 +122,7 @@ A custom implementation of NexPlayer™ can also be done manually:
 #### Creating the player
 First the Nexplayer needs to be created, an action should be registered to receive the callbacks, the rendermode should be set, the target renderer should be set, the player should be initialized, and the coroutine needs to be started.
 
-```
+```C#
 void Awake ()
 {
     // Creation of the NexPlayer instance
@@ -188,7 +188,7 @@ void Awake ()
 The update method of the player needs to be called at the Update callback of the
 MonoBehaviour object:
 
-```
+```C#
 void Update()
 {
   if (player != null){ 
@@ -200,7 +200,7 @@ void Update()
 
 #### Releasing the player
 To release the Nexplayer, call the Release method and wait for the NEXPLAYER_EVENT_CLOSED callback:
-```
+```C#
 public void ToogleQuit()
 {
   if (this.gameObject.activeSelf == false)
@@ -248,7 +248,7 @@ public void ToogleQuit()
 In Unity, check the state change(back/foreground) via OnApplicationPause function's parameteer value.
 If the application state is background, call Pause Function of the NexPlayer.
 When the state of the application becomes forground, calls the Resume Function of the NexPlayer.
-```
+```C#
 void OnApplicationPause (bool pauseStatus){
     Log("OnApplicationPause(" + pauseStatus + ")");
     if (player != null)
@@ -290,7 +290,7 @@ It can be used as a reference for a custom integration.
 To integrate the
 AutomaticGroundLeveler use the following code:
 
-```
+```C#
 void Awake()
 {
     agl = new AutomaticGroundLeveler();
