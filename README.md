@@ -35,7 +35,7 @@ This repository contains the sample demo code of NexPlayer™ plugin. If you wan
 
 
 ## NexPlayer360™
-NexPlayer™ Plugin for Unity includes many of the features of [NexPlayer360 SDK](https://nexplayersdk.com/nexplayer-360/), such as:
+NexPlayer™ Plugin for Unity includes many of the features of NexPlayer360 SDK, such as:
 - Touch input, including movement, zoom and rotation of the camera
 - Gyroscope input to move the camera
 - Mouse input to move the camera
