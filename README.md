@@ -22,8 +22,12 @@ This repository contains the sample demo code of NexPlayer™ plugin. If you wan
     - Information about the buffering state
     - Track change
     - State of the playback
-- Widevine DRM on Android and iOS for DASH videos
+- Widevine DRM on Android and iOS for HLS & DASH videos
+- Low latency on Android & iOS for HLS & DASH streaming 
 - DRM on local videos and streaming
+- SRT, SMI, & WebVTT subtitles & CEA-608/708 closed captions
+- Static thumbnails
+- Server-side & client-side ad insertion
 
 ## Supported Platform
 | Platform | Supported Graphics APIs | HLS | DASH | Local | Inside App (Streaming Assets) |
