@@ -24,6 +24,7 @@ This repository contains the sample demo code of NexPlayer™ plugin. If you wan
     - State of the playback
 - Widevine DRM on Android and iOS for HLS & DASH videos
 - DRM on local videos and streaming
+- Support for 360 video playback and virtual reality [VR]
 
 ## Supported Platform
 | Platform | Supported Graphics APIs | HLS | DASH | Local | Inside App (Streaming Assets) |
@@ -43,6 +44,7 @@ NexPlayer™ Plugin for Unity includes many of the features of [NexPlayer360 SDK
 - Custom shaders to map 2D, 3D Over/Under and 3D Left/Right 360 videos
 - Customizable key controls
 - VR supported scenes
+- Compatible with VR libraries for Unity (Google Cardboard, Vive & Oculus)
 
 
 ## Documentation
