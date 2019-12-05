@@ -4,11 +4,13 @@
 
 NexPlayer™ for Unity is a multiscreen streaming player for Unity apps that supports both standard and 360 video playback across all Android, iOS and PC devices. NexPlayer™ for Unity is the only playback solution for Unity that supports HLS &amp; DASH live streaming across all devices, advanced events and out of the box 360 video navigation.
 
-This repository contains the sample demo code of NexPlayer™ plugin. If you want to get our full working demo, contact us in our [website](https://www.nexplayersdk.com/contact?utm_source=github&utm_medium=organic&utm_campaign=unite&utm_content=20190918--unity).
+This repository contains the sample demo code of the NexPlayer™ plugin. If you want to get a copy of our full working demo, contact us in our [website](https://www.nexplayersdk.com/contact?utm_source=github&utm_medium=organic&utm_campaign=unite&utm_content=20190918--unity).
 
 ![NexPlayer Plugin](resources/screen_demo_cube.png)
 
 ## Features
+
+The NexPlayer™ for Unity video plugin contains the latest features. As our plugin is developed entirely in-house, we can implement any desired functionalities.
 
 - Support protocols for ABR algorithm, including HLS and DASH
 - Support for progressive download (eg. online .mp4)
@@ -24,7 +26,13 @@ This repository contains the sample demo code of NexPlayer™ plugin. If you wan
     - State of the playback
 - Widevine DRM on Android and iOS for HLS & DASH videos
 - DRM on local videos and streaming
-- Support for 360 video playback and virtual reality [VR]
+- Support for 360 video playback and virtual reality (VR)
+- Offline streaming on Android & iOS with HLS & DASH 
+- SRT, SMI, & WebVTT subtitles & CEA-608/708 closed captions 
+- Static thumbnails
+- Server-side & client-side ad insertion
+- High Definition (HD) & 4K Ultra High Definition (UHD) Resolution Support 
+
 
 ## Supported Platform
 | Platform | Supported Graphics APIs | HLS | DASH | Local | Inside App (Streaming Assets) |
@@ -36,7 +44,7 @@ This repository contains the sample demo code of NexPlayer™ plugin. If you wan
 
 
 ## NexPlayer360™
-NexPlayer™ Plugin for Unity includes many of the features of [NexPlayer360 SDK](https://www.nexplayersdk.com/360-video-player-sdk/), such as:
+NexPlayer™ Plugin for Unity includes many of the same [NexPlayer360 SDK](https://www.nexplayersdk.com/360-video-player-sdk/), features such as:
 - Touch input, including movement, zoom and rotation of the camera
 - Gyroscope input to move the camera
 - Mouse input to move the camera
@@ -48,7 +56,7 @@ NexPlayer™ Plugin for Unity includes many of the features of [NexPlayer360 SDK
 
 
 ## Documentation
-Here the official [documentation](Unity_Integration_Guide.pdf) of NexPlayer™ Unity Plugin.
+Here is the official [documentation](Unity_Integration_Guide.pdf) for the NexPlayer™ Unity Plugin.
 
 
 ## How to use it
@@ -61,15 +69,15 @@ Create a new [Unity](https://unity3d.com/) project and import the NexPlayer™ P
 
 ![NexPlayer Plugin](resources/import_package.png)
 
-In order to load the player [Scene](https://docs.unity3d.com/Manual/UsingTheSceneView.html) follow the path: 'Assets/NexPlayer/Scenes' and open 'NexPlayer raw video.unity' with double click.
-Test the playback selecting play button in the editor.
+In order to load the player [Scene](https://docs.unity3d.com/Manual/UsingTheSceneView.html) follow the path: 'Assets/NexPlayer/Scenes' and open 'NexPlayer raw video.unity' by double clicking.
+Test the playback by selecting the play button in the editor.
 
 ![NexPlayer Plugin](resources/playback_demo.png)
 
-#### 2) Play 360 scene
+#### 2) Play a 360 scene
 
-Load the 360 [Scene](https://docs.unity3d.com/Manual/UsingTheSceneView.html) available in 'Assets/NexPlayer/NexPlayer360/Scenes/NexPlayer360.unity'.
-Test the playback selecting play button in the editor.
+Load the 360 Video [Scene](https://docs.unity3d.com/Manual/UsingTheSceneView.html) available in 'Assets/NexPlayer/NexPlayer360/Scenes/NexPlayer360.unity'.
+Test the playback by selecting the play button in the editor.
 
 ![NexPlayer Plugin](resources/360_scene.gif)
 
@@ -90,25 +98,24 @@ Switch to the desired platform.
 #### 4) Configuration steps
 
 Graphics APIs:
-- Manually, select the compatible graphics APIs manually in "Player Settings" section of Unity for each platform.
-- Automatically, if the helper
-component NexEditorHelper.cs is attached to any GameObject. It will include a graphics UI to
+- Manually, select the compatible graphics APIs manually in the "Player Settings" section of Unity for each platform.
+- If the helper component NexEditorHelper.cs is attached to any GameObject, it will include a graphics UI to
 auto detect any conflict regarding the graphics API, and it will promptly solve it.
 
 Android platform:
-- To allow any remote video select the "Require" value for "Internet Access" option in the Unity
+- To allow any remote video, select the "Require" value for "Internet Access" option in the Unity
 player settings.
 - Set "Write Permision" to External (SDcard)
 
 iOS platform:
-- To view HTTP videos enable "Allow downloads over HTTP" option.
+- To view HTTP videos, enable "Allow downloads over HTTP" option.
 
-A quick and easy way to enable these settings is using the helper component
+A quick and easy way to enable these settings is by using the helper component
 (NexEditorHelper.cs).
 
 [Virtual Reality](https://en.wikipedia.org/wiki/Virtual_reality) mode:
 - Go to "Player Settings" --> "Other Settings" and select the desired VR mode (depends on the Unity version used).
-If "Oculus" is selected, remember to [generate the OSIG file](https://developer.oculus.com/osig/) for the device and add it into 'Assets/Plugins/Android/Assets'.
+If "Oculus" is selected, remember to [generate the OSIG file](https://developer.oculus.com/osig/) for the device and add it into the 'Assets/Plugins/Android/Assets'.
 
 
 ![VR mode](resources/vr_oculus.png)
@@ -122,7 +129,7 @@ texture. The URL and the text fields used to update the status can be personaliz
 A custom implementation of NexPlayer™ can also be done manually:
 
 #### Creating the player
-First the Nexplayer needs to be created, an action should be registered to receive the callbacks, the rendermode should be set, the target renderer should be set, the player should be initialized, and the coroutine needs to be started.
+First, the NexPlayer needs to be created, an action should be registered to receive the callbacks, the render mode should be set, the target renderer should be set, the player should be initialized, and the coroutine needs to be started.
 
 ```C#
 void Awake ()
@@ -201,7 +208,7 @@ void Update()
 
 
 #### Releasing the player
-To release the Nexplayer, call the Release method and wait for the NEXPLAYER_EVENT_CLOSED callback:
+To release the NexPlayer, call the Release method and wait for the NEXPLAYER_EVENT_CLOSED callback:
 ```C#
 public void ToogleQuit()
 {
@@ -247,9 +254,9 @@ public void ToogleQuit()
 
 #### Background status handling
 
-In Unity, check the state change(back/foreground) via OnApplicationPause function's parameteer value.
+In Unity, check the state change(back/foreground) via OnApplicationPause function's parameter value.
 If the application state is background, call Pause Function of the NexPlayer.
-When the state of the application becomes forground, calls the Resume Function of the NexPlayer.
+When the state of the application becomes foreground, calls the Resume Function of the NexPlayer.
 ```C#
 void OnApplicationPause (bool pauseStatus){
     Log("OnApplicationPause(" + pauseStatus + ")");
