@@ -1,16 +1,16 @@
-## NexPlayer™ Unity Plugin
+## NexPlayer™ Unity Video Streaming Plugin
 
 ![NexPlayer demo home ](resources/unity_demo_home.gif)
 
-NexPlayer™ for Unity is a multiscreen streaming player for Unity apps that supports both standard and 360 video playback across all Android, iOS and PC devices. NexPlayer™ for Unity is the only playback solution for Unity that supports HLS &amp; DASH live streaming across all devices, advanced events and out of the box 360 video navigation.
+NexPlayer™ for Unity is a multiscreen video streaming player for Unity apps that supports both standard and 360 video playback across all Android, iOS and PC devices. NexPlayer™ for Unity is the only playback solution for Unity that supports HLS &amp; DASH live streaming across all devices, advanced events and out of the box 360 video navigation.
 
-This repository contains the sample demo code of the NexPlayer™ plugin. If you want to get a copy of our full working demo, contact us in our [website](https://www.nexplayersdk.com/contact?utm_source=github&utm_medium=organic&utm_campaign=unite&utm_content=20190918--unity).
+This repository contains the sample demo code of the NexPlayer™ video streaming plugin. If you want to get a copy of our full working demo, contact us at our [website](https://www.nexplayersdk.com/contact?utm_source=github&utm_medium=organic&utm_campaign=unite&utm_content=20190918--unity).
 
-![NexPlayer Plugin](resources/screen_demo_cube.png)
+![NexPlayer Video Streaming Plugin](resources/screen_demo_cube.png)
 
 ## Features
 
-The NexPlayer™ for Unity video plugin contains the latest features. As our plugin is developed entirely in-house, we can implement any desired functionalities.
+The NexPlayer™ for Unity video streaming plugin contains the latest features. As our plugin is developed entirely in-house, we can implement any desired functionalities.
 
 - Support protocols for ABR algorithm, including HLS and DASH
 - Support for progressive download (eg. online .mp4)
@@ -56,7 +56,7 @@ NexPlayer™ Plugin for Unity includes many of the same [NexPlayer360 SDK](https
 
 
 ## Documentation
-Here is the official [documentation](Unity_Integration_Guide.pdf) for the NexPlayer™ Unity Plugin.
+Here is the official [documentation](Unity_Integration_Guide.pdf) for the NexPlayer™ Unity Video Streaming Plugin.
 
 
 ## How to use it
@@ -65,7 +65,7 @@ Here is the official [documentation](Unity_Integration_Guide.pdf) for the NexPla
 ### Quick start
 #### 1) Play standard video
 
-Create a new [Unity](https://unity3d.com/) project and import the NexPlayer™ Plugin.
+Create a new [Unity](https://unity3d.com/) project and import the NexPlayer™ Video Streaming Plugin.
 
 ![NexPlayer Plugin](resources/import_package.png)
 
@@ -120,7 +120,7 @@ If "Oculus" is selected, remember to [generate the OSIG file](https://developer.
 
 ![VR mode](resources/vr_oculus.png)
 
-### NexPlayer™ integration
+### NexPlayer™ video streaming player integration
 
 An example of using NexPlayer™ can be found in the script NexPlayer.cs.
 It has to be attached to some game object that has a material and a
