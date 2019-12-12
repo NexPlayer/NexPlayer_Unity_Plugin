@@ -1,6 +1,6 @@
 ## NexPlayer™ Unity Video Streaming Plugin
 
-![NexPlayer demo home ](resources/unity_demo_home.gif)
+![NexPlayer cube demo ](resources/unity_cube_demo.gif)
 
 NexPlayer™ for Unity is a multiscreen video streaming player for Unity apps that supports both standard and 360 video playback across all Android, iOS and PC devices. NexPlayer™ for Unity is the only playback solution for Unity that supports HLS &amp; DASH live streaming across all devices, advanced events and out of the box 360 video navigation.
 
