@@ -2,39 +2,51 @@
 
 <p align="center"> <img width="460" height="300" src="https://github.com/NexPlayer/NexPlayer_Unity_Plugin/blob/master/resources/unity_cube_demo.gif"> </p>
 
-NexPlayer™ for Unity is a multiscreen video streaming player for Unity apps that supports both standard and 360 video playback across all Android, iOS and PC devices. NexPlayer™ for Unity is the only playback solution for Unity that supports HLS &amp; DASH live streaming across all devices, advanced events and out of the box 360 video navigation.
+NexPlayer™ for Unity is a multiscreen video streaming player for Unity apps that supports both standard and 360 video playback across all Android, iOS and PC devices. NexPlayer™ for Unity is the only playback solution for Unity that supports HLS &amp; DASH live streaming with Widevine DRM across all Android & iOS devices.
 
-This repository contains the sample demo code of the NexPlayer™ video streaming plugin. If you want to get a copy of our full working demo, contact us at our [website](https://www.nexplayersdk.com/contact?utm_source=github&utm_medium=organic&utm_campaign=unite&utm_content=20190918--unity).
+This repository contains the NexPlayer™ video streaming plugin features list as well as an integration guide. If you want to get a copy of our fully working demo, contact us at our [website](https://www.nexplayersdk.com/contact?utm_source=github&utm_medium=organic&utm_campaign=unite&utm_content=20190918--unity).
+
+* **[Features](#features-for-android-&-ioS)**  
+
+* **[Supported Platforms](#supported-platforms)**
+
+* **[NexPlayer360 Plugin](#nexplayer360-plugin)**
+
+* **[Documentation](#documentation)**
+
+* **[Integration Guide](#how-to-use-it)**
+
 
 ![NexPlayer Video Streaming Plugin](resources/screen_demo_cube.png)
 
-## Features
+## Features for Android & iOS
 
-The NexPlayer™ for Unity video streaming plugin contains the latest features. As our plugin is developed entirely in-house, we can implement any desired functionalities.
+The NexPlayer™ for Unity video streaming plugin contains the latest features. As our plugin is developed entirely in-house, we can implement any desired functionalities. 
 
-- Support protocols for ABR algorithm, including HLS and DASH
-- Support for progressive download (eg. online .mp4)
-- Support local videos from local storage
+We support the following features:
+
+- HLS & DASH Streaming with ABR (Adaptive Bitrate)
 - Complete API including:
     - Play / Pause
     - Seek
-    - Video resolution
-    - Last millisecond buffered
-- Useful callbacks including:
-    - Information about the buffering state
-    - Track change
-    - State of the playback
-- Widevine DRM on Android and iOS for HLS & DASH videos
-- DRM on local videos and streaming
-- Support for 360 video playback and virtual reality (VR)
-- Offline streaming on Android & iOS with HLS & DASH 
-- SRT, SMI, & WebVTT subtitles & CEA-608/708 closed captions 
-- Static thumbnails
-- Server-side & client-side ad insertion
-- High Definition (HD) & 4K Ultra High Definition (UHD) Resolution Support 
+    - Portrait / Landscape Orientation
+    - Audio Volume Adjustment
+    - Loop Playback
+    - Set Buffering Time
+    - Ultra-Low Latency
+- Useful Callbacks Including:
+    - Content Information and Statistics (Audio & Video Bitrate, Codec & Average FPS, and More)
+    - Change Audio & Caption Tracks
+    - Offline Streaming Playback for HLS & DASH
+    - Widevine DRM on Local Videos and Streaming for HLS & DASH
+    - 360 Video Playback and Virtual Reality (VR)
+    - SRT, SMI, & WebVTT Subtitles & CEA-608/708 Closed Captions 
+    - Server-Side & Client-Side Ad Insertion
+    - Up to 4K Ultra High Definition (UHD) Resolution 
+    - Unity Versions 2017 or Higher
 
 
-## Supported Platform
+## Supported Platforms
 | Platform | Supported Graphics APIs | HLS | DASH | Local | Inside App (Streaming Assets) |
 | ------ | ------ | ------ | ------ | ------ | ------ |
 | Android (armeabi-v7a and x86) | OpenGLES2, OpenGLES3 | O | O | O | O |
