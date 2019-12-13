@@ -17,7 +17,7 @@ This repository contains the NexPlayer™ video streaming plugin features list a
 * **[Integration Guide](#integration-guide)**
 
 
-![NexPlayer Video Streaming Plugin](resources/screen_demo_cube.png)
+![NexPlayer Video Streaming Plugin](resources/unity_player_3d_scene_12_13_2019.png)
 
 ## Features for Android & iOS
 
