@@ -46,6 +46,7 @@ We support the following features:
     - SRT, SMI, & WebVTT Subtitles & CEA-608/708 Closed Captions 
     - Compatible With Multiple Audio & Subtitle Tracks
     - Content Information and Statistics (Audio & Video Bitrate, Codec & Average FPS, and More)
+    - Transparency and Chroma Support
     
 ## Supported Platforms
 | Platform | Supported Graphics APIs | HLS | DASH | Local | Inside App (Streaming Assets) |
