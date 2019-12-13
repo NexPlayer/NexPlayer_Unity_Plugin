@@ -25,27 +25,28 @@ The NexPlayer™ for Unity video streaming plugin contains the latest features. 
 
 We support the following features:
 
-- HLS & DASH Streaming with ABR (Adaptive Bitrate)
-- Complete API including:
+- Overview
+    - Unity Versions 2017 or Higher
+    - HLS & DASH Streaming with ABR (Adaptive Bitrate)
+    - Widevine DRM on Local Playback and Streaming   
+    - Low Latency Live Streaming
+    - 360 Video Playback and Virtual Reality (VR)
+    - Up to 4K Ultra High Definition (UHD) Resolution
+    - Rendering Videos in 2D & 3D Objects
+- Basic Features:
     - Play / Pause
     - Seek
-    - Portrait / Landscape Orientation
     - Audio Volume Adjustment
     - Loop Playback
-    - Set Buffering Time
+    - Configurable Aspect Ratio
+    - Portrait / Landscape Orientation
 - Advanced Features:
-    - Content Information and Statistics (Audio & Video Bitrate, Codec & Average FPS, and More)
-    - Change Audio & Caption Tracks
-    - Low Latency
-    - Offline Streaming Playback for HLS & DASH
-    - Widevine DRM on Local Videos and Streaming for HLS & DASH
-    - 360 Video Playback and Virtual Reality (VR)
+    - Adjustable Buffering Time
+    - Offline Streaming Playback for HLS & DASH    
     - SRT, SMI, & WebVTT Subtitles & CEA-608/708 Closed Captions 
-    - Server-Side & Client-Side Ad Insertion
-    - Up to 4K Ultra High Definition (UHD) Resolution 
-    - Unity Versions 2017 or Higher
-
-
+    - Compatible With Multiple Audio & Subtitle Tracks
+    - Content Information and Statistics (Audio & Video Bitrate, Codec & Average FPS, and More)
+    
 ## Supported Platforms
 | Platform | Supported Graphics APIs | HLS | DASH | Local | Inside App (Streaming Assets) |
 | ------ | ------ | ------ | ------ | ------ | ------ |
