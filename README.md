@@ -6,7 +6,7 @@ NexPlayer™ for Unity is a multiscreen video streaming player for Unity apps th
 
 This repository contains the NexPlayer™ video streaming plugin features list as well as an integration guide. If you want to get a copy of our fully working demo, contact us at our [website](https://www.nexplayersdk.com/contact?utm_source=github&utm_medium=organic&utm_campaign=unite&utm_content=20190918--unity).
 
-* **[Features](#features-for-android-&-ioS)**  
+* **[Features](#features-for-android--ioS)**  
 
 * **[Supported Platforms](#supported-platforms)**
 
@@ -55,7 +55,7 @@ We support the following features:
 
 
 
-## NexPlayer360™
+## NexPlayer360™ Plugin
 NexPlayer™ Plugin for Unity includes many of the same [NexPlayer360 SDK](https://www.nexplayersdk.com/360-video-player-sdk/), features such as:
 - Touch input, including movement, zoom and rotation of the camera
 - Gyroscope input to move the camera
