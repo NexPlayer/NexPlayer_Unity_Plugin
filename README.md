@@ -14,7 +14,7 @@ This repository contains the NexPlayer™ video streaming plugin features list a
 
 * **[Documentation](#documentation)**
 
-* **[Integration Guide](#how-to-use-it)**
+* **[Integration Guide](#integration-guide)**
 
 
 ![NexPlayer Video Streaming Plugin](resources/screen_demo_cube.png)
@@ -57,13 +57,12 @@ We support the following features:
 
 ## NexPlayer360™ Plugin
 NexPlayer™ Plugin for Unity includes many of the same [NexPlayer360 SDK](https://www.nexplayersdk.com/360-video-player-sdk/), features such as:
-- Touch input, including movement, zoom and rotation of the camera
+- Touch input which includes movement, zoom and camera rotation
 - Gyroscope input to move the camera
 - Mouse input to move the camera
 - Automatic Ground Leveler to stabilize the video
 - Custom shaders to map 2D, 3D Over/Under and 3D Left/Right 360 videos
 - Customizable key controls
-- VR supported scenes
 - Compatible with VR libraries for Unity (Google Cardboard, Vive & Oculus)
 
 
@@ -71,7 +70,7 @@ NexPlayer™ Plugin for Unity includes many of the same [NexPlayer360 SDK](https
 Here is the official [documentation](Unity_Integration_Guide.pdf) for the NexPlayer™ Unity Video Streaming Plugin.
 
 
-## How to use it
+## Integration Guide
 
 
 ### Quick start
