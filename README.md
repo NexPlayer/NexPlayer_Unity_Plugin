@@ -33,7 +33,7 @@ We support the following features:
     - Audio Volume Adjustment
     - Loop Playback
     - Set Buffering Time
-    - Ultra-Low Latency
+    - Low Latency
 - Useful Callbacks Including:
     - Content Information and Statistics (Audio & Video Bitrate, Codec & Average FPS, and More)
     - Change Audio & Caption Tracks
