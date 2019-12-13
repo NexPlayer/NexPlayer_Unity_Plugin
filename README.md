@@ -33,10 +33,10 @@ We support the following features:
     - Audio Volume Adjustment
     - Loop Playback
     - Set Buffering Time
-    - Low Latency
-- Useful Callbacks Including:
+- Advanced Features:
     - Content Information and Statistics (Audio & Video Bitrate, Codec & Average FPS, and More)
     - Change Audio & Caption Tracks
+    - Low Latency
     - Offline Streaming Playback for HLS & DASH
     - Widevine DRM on Local Videos and Streaming for HLS & DASH
     - 360 Video Playback and Virtual Reality (VR)
