@@ -1,6 +1,8 @@
 ## NexPlayer™ Unity Video Streaming Plugin
 
-<p align="center"> <img width="460" height="300" src="https://github.com/NexPlayer/NexPlayer_Unity_Plugin/blob/master/resources/unity_cube_demo.gif"> </p>
+
+
+![NexPlayer Cube_Demo](resources/unity_cube_demo3.gif)
 
 NexPlayer™ for Unity is a multiscreen video streaming player for Unity apps that supports both standard and 360 video playback across all Android, iOS and PC devices. NexPlayer™ for Unity is the only playback solution for Unity that supports HLS &amp; DASH live streaming with Widevine DRM across all Android & iOS devices.
 
