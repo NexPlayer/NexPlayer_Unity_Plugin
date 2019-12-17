@@ -1,4 +1,4 @@
-## NexPlayer™ Unity Video Streaming Plugin
+## NexPlayer™ Unity Video Streaming Player Plugin
 
 
 
@@ -6,7 +6,7 @@
 
 NexPlayer™ for Unity is a multiscreen video streaming player for Unity apps that supports both standard and 360 video playback across all Android, iOS and PC devices. NexPlayer™ for Unity is the only playback solution for Unity that supports HLS &amp; DASH live streaming with Widevine DRM across all Android & iOS devices.
 
-This repository contains the NexPlayer™ video streaming plugin features list as well as an integration guide. If you want to get a copy of our fully working demo, contact us at our [website](https://www.nexplayersdk.com/contact?utm_source=github&utm_medium=organic&utm_campaign=unite&utm_content=20190918--unity).
+This repository contains the NexPlayer™ Unity video streaming player plugin features list as well as an integration guide. If you want to get a copy of our fully working demo, contact us at our [website](https://www.nexplayersdk.com/contact?utm_source=github&utm_medium=organic&utm_campaign=unite&utm_content=20190918--unity).
 
 * **[Features](#features-for-android--ioS)**  
 
@@ -19,11 +19,11 @@ This repository contains the NexPlayer™ video streaming plugin features list a
 * **[Integration Guide](#integration-guide)**
 
 
-![NexPlayer Video Streaming Plugin](resources/unity_player_3d_scene_12_13_2019.png)
+![NexPlayer Unity Video Streaming Player Plugin](resources/unity_player_3d_scene_12_13_2019.png)
 
 ## Features for Android & iOS
 
-The NexPlayer™ for Unity video streaming plugin contains the latest features. As our plugin is developed entirely in-house, we can implement any desired functionalities. 
+The NexPlayer™ for Unity video streaming player plugin contains the latest features. As our Unity video plugin is developed entirely in-house, we can implement any desired functionalities. 
 
 We support the following features:
 
@@ -60,7 +60,7 @@ We support the following features:
 
 
 ## NexPlayer360™ Plugin
-NexPlayer™ Plugin for Unity includes many of the same [NexPlayer360 SDK](https://www.nexplayersdk.com/360-video-player-sdk/), features such as:
+The NexPlayer™ video plugin for Unity includes many of the same [NexPlayer360 SDK](https://www.nexplayersdk.com/360-video-player-sdk/), features such as:
 - Touch input which includes movement, zoom and camera rotation
 - Gyroscope input to move the camera
 - Mouse input to move the camera
@@ -71,7 +71,7 @@ NexPlayer™ Plugin for Unity includes many of the same [NexPlayer360 SDK](https
 
 
 ## Documentation
-Here is the official [documentation](Unity_Integration_Guide.pdf) for the NexPlayer™ Unity Video Streaming Plugin.
+Here is the official [documentation](Unity_Integration_Guide.pdf) for the NexPlayer™ Unity video streaming player plugin.
 
 
 ## Integration Guide
@@ -80,7 +80,7 @@ Here is the official [documentation](Unity_Integration_Guide.pdf) for the NexPla
 ### Quick start
 #### 1) Play standard video
 
-Create a new [Unity](https://unity3d.com/) project and import the NexPlayer™ Video Streaming Plugin.
+Create a new [Unity](https://unity3d.com/) project and import the NexPlayer™ Unity video streaming player plugin.
 
 ![NexPlayer Plugin](resources/import_package.png)
 
@@ -94,7 +94,7 @@ Test the playback by selecting the play button in the editor.
 Load the 360 Video [Scene](https://docs.unity3d.com/Manual/UsingTheSceneView.html) available in 'Assets/NexPlayer/NexPlayer360/Scenes/NexPlayer360.unity'.
 Test the playback by selecting the play button in the editor.
 
-![NexPlayer Plugin](resources/360_scene.gif)
+![NexPlayer Video Streaming Player Plugin](resources/360_scene.gif)
 
 #### 3) Load NexPlayer™ demo
 
@@ -135,7 +135,7 @@ If "Oculus" is selected, remember to [generate the OSIG file](https://developer.
 
 ![VR mode](resources/vr_oculus.png)
 
-### NexPlayer™ video streaming player integration
+### NexPlayer™ Unity video streaming player plugin integration
 
 An example of using NexPlayer™ can be found in the script NexPlayer.cs.
 It has to be attached to some game object that has a material and a
