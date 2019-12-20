@@ -84,7 +84,7 @@ Create a new [Unity](https://unity3d.com/) project and import the NexPlayer™ U
 
 ![NexPlayer Plugin](resources/import_package.png)
 
-In order to load the player [Scene](https://docs.unity3d.com/Manual/UsingTheSceneView.html) follow the path: 'Assets/NexPlayer/Scenes' and open 'NexPlayer raw video.unity' by double clicking.
+In order to load the player [Scene](https://docs.unity3d.com/Manual/UsingTheSceneView.html) follow the path: 'Assets/NexPlayer/Scenes' and open 'NexPlayer_RawImage_Sample.unity' by double clicking.
 Test the playback by selecting the play button in the editor.
 
 ![NexPlayer Plugin](resources/playback_demo.png)
@@ -101,9 +101,15 @@ Test the playback by selecting the play button in the editor.
 Add the following scenes to the Unity build:
 
 - Assets/NexPlayer/Scenes/MainMenu.unity
+- Assets/NexPlayer/Scenes/NexPlayer_ChangeRenderMode_Sample.unity
 - Assets/NexPlayer/Scenes/NexPlayer_MaterialOverride_Sample.unity
-- Assets/NexPlayer/Scenes/NexPlayer_RawImage_Sample.unity
-- Assets/NexPlayer/Scenes/NexPlayer_RenderTexture_Sample.unity
+- Assets/NexPlayer/Scenes/NexPlayer_PlaybackMultipleRenderer_Sample.unity   
+- Assets/NexPlayer/Scenes/NexPlayer_PlaybackSetting_Sample.unity
+- Assets/NexPlayer/Scenes/NexPlayer_RawImage_Sample.unity   
+- Assets/NexPlayer/Scenes/NexPlayer_RenderTexture_Sample.unity   
+- Assets/NexPlayer/Scenes/NexPlayer_Transparency_Sample.unity   
+- Assets/NexPlayer/Scenes/NexPlayer_VideoSpreadRenderTexture_Sample.unity 
+- Assets/NexPlayer/NexPlayer360/Scenes/NexPlayer360.unity
 
 Switch to the desired platform.
 
@@ -112,221 +118,23 @@ Switch to the desired platform.
 
 #### 4) Configuration steps
 
-Graphics APIs:
-- Manually, select the compatible graphics APIs manually in the "Player Settings" section of Unity for each platform.
-- If the helper component NexEditorHelper.cs is attached to any GameObject, it will include a graphics UI to
-auto detect any conflict regarding the graphics API, and it will promptly solve it.
+Manually select the compatible graphics APIs in the "Player Settings" section of Unity for each platform as shown below.
 
 Android platform:
-- To allow any remote video, select the "Require" value for "Internet Access" option in the Unity
-player settings.
+- To allow the application to have internet access for streaming videos, select the "Require" value for the "Internet Access" option in the Unity player settings.
 - Set "Write Permision" to External (SDcard)
+- Make sure to set a specific app ID under "Package Name" as required by Unity before compiling your application.
 
 iOS platform:
 - To view HTTP videos, enable "Allow downloads over HTTP" option.
+- After compilation, in XCode make sure to set a "Signing Team."
+- Under embedded binaries, click the "Plus" button and add:
+   - widevine_cdm_sdk_release.framework
+   - WidevineIntegration.framework
 
 A quick and easy way to enable these settings is by using the helper component
-(NexEditorHelper.cs).
-
-[Virtual Reality](https://en.wikipedia.org/wiki/Virtual_reality) mode:
-- Go to "Player Settings" --> "Other Settings" and select the desired VR mode (depends on the Unity version used).
-If "Oculus" is selected, remember to [generate the OSIG file](https://developer.oculus.com/osig/) for the device and add it into the 'Assets/Plugins/Android/Assets'.
-
-
-![VR mode](resources/vr_oculus.png)
-
-### NexPlayer™ Unity video streaming player plugin integration
-
-An example of using NexPlayer™ can be found in the script NexPlayer.cs.
-It has to be attached to some game object that has a material and a
-texture. The URL and the text fields used to update the status can be personalized.
-
-A custom implementation of NexPlayer™ can also be done manually:
-
-#### Creating the player
-First, the NexPlayer needs to be created, an action should be registered to receive the callbacks, the render mode should be set, the target renderer should be set, the player should be initialized, and the coroutine needs to be started.
-
-```C#
-void Awake ()
-{
-    // Creation of the NexPlayer instance
-    player = NexPlayerFactory.GetNexPlayer();
-    
-    //Register to the events of NexPlayer
-    player.OnEvent += EventNotify;
-    
-    //Default renderMode is RawImage
-    
-    switch (m_RenderMode)
-    {
-        case NexRenderMode.MaterialOverride:
-         player.renderMode =  NexRenderMode.MaterialOverride;
-         player.targetMaterialRenderer = renderer;
-        break;
-        case NexRenderMode.RenderTexture:
-         player.renderMode = NexRenderMode.RenderTexture;
-         player.targetTexture = renderTexture;
-         break;
-         case NexRenderMode.RawImage:
-          player.renderMode = NexRenderMode.RawImage;
-          player.targetRawImage = rawImage;
-          break;
-    }
-    
-    SetProperties();
-    //Initialize NexPLayer
-    NexPlayerError initResult = player.init(logLevel);
-    
-    URL = NexUtil.GetFulllUri(playType, URL);
-    subtitleURL = NexUtil.GetFulllUri(playType, subtitleURL);
-    
-    if (initResult == NexPlayerError.NEXPLAYER_ERROR-NONE)
-    {
-        OpenPlayer()
-    }
-    else
-    {
-        if (initResult == NexPlayerError.NEXPLAYER_INVALID_RENDERMODE_TARGET)
-        playerStatusText = "Render Fail";
-        else if ( initResult == NexPlayerError.NEXPLAYER_PLAYER_INIT_FAILURE)
-        playerStatusText = "Init Fail";
-        else if ( initResult == NexPlayerError.NEXPLAYER_TEXTURE_INIT_FAILURE)
-        playerStatusText = "Texture Fail"
-        
-        player = null
-    }
-
-    catch (System.Exception e)
-     {
-         Debug.LogError("Error while initializing the player. Please check that your platform is supported");
-         Debug.LogError("Exception: " + e);
-         playerStatusText = "Error";
-     }
-     finally
-      {
-         SetPlayerStatus(playerStatusText);
-       }
- }
-```
-
-The update method of the player needs to be called at the Update callback of the
-MonoBehaviour object:
-
-```C#
-void Update()
-{
-  if (player != null){ 
-      player.Update();
-   }
-}
-```
-
-
-#### Releasing the player
-To release the NexPlayer, call the Release method and wait for the NEXPLAYER_EVENT_CLOSED callback:
-```C#
-public void ToogleQuit()
-{
-  if (this.gameObject.activeSelf == false)
-  {
-      return;
-  }
-  FinishGame();
- }
- 
- private void FinishGame(){
-     if (player != null){
-         if (Application.platform == RuntimePlatform.WindowsEditor)
-         {
-             player.Close();
-             player.Release();
-             player = null;
-             GoBack();
-         }
-         else {
-             GoBack();
-         }
-     }
-     else {
-      GoBack();
-        }
-     }
-     
- }
- void EventNotify (NexPlayerEvent paramEvent, int param1, int param2){
-     ...
-    switch (paramEvent)
-    {
-        ...
-        case NexPlayerEvent.NEXPLAYER_EVENT_CLOSED:
-        {
-            ResetPlayerUI();
-        }
-        break;
-    }
- }
-```
-
-#### Background status handling
-
-In Unity, check the state change(back/foreground) via OnApplicationPause function's parameter value.
-If the application state is background, call Pause Function of the NexPlayer.
-When the state of the application becomes foreground, calls the Resume Function of the NexPlayer.
-```C#
-void OnApplicationPause (bool pauseStatus){
-    Log("OnApplicationPause(" + pauseStatus + ")");
-    if (player != null)
-    {
-        //Go to Background
-        if (pauseStatus)
-        {
-            // Save current player status
-            playerStatus = player.GetPlayerStatus();
-            bApplicationPaused = true;
-            if (player.GetPlayerStatus() > NexPlayerStatus.NEXPLAYER_STATUS_STOP)
-            {
-                player.Pause();
-            }
-        }
-        //Return to Foreground
-        else 
-        {
-            if (bApplicationPaused)
-            {
-                if (player.GetPlayerStatus () > NexPlayerStatus.NEXPLAYER_STATUS_STOP && playerStatus == NexPlayerStatus.NEXPLAYER_STATUS_PLAY)
-                {
-                    player.Resume();
-                }
-                playerStatus = NexPlayerStatus.NEXPLAYER_STATUS_NONE;
-                bApplicationPaused = false;
-            }
-        }
-    }
-}
-```
-
-### NexPlayer™ 360 Integration
-
-The script NexPlayer360.cs provides the most important functionalities of
-a 360 viewer.
-It can be used as a reference for a custom integration.
-
-To integrate the
-AutomaticGroundLeveler use the following code:
-
-```C#
-void Awake()
-{
-    agl = new AutomaticGroundLeveler();
-}
-
-void Update (){
-    //Move the camera with a custom login
-    //Stabilize the camera
-    agl.AutomaticGroundLevelerStep(cameraToRotate.transform, latestAttitude, rotating);
-}
-```
-
+(NexEditorHelper.cs). If the helper component NexEditorHelper.cs is attached to any GameObject, it will include a graphics UI to
+auto detect any conflict regarding the graphics API, and it will promptly solve it.
 
 -------------------
 
