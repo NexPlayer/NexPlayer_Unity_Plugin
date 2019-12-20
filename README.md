@@ -118,7 +118,7 @@ Switch to the desired platform.
 
 #### 4) Configuration steps
 
-Manually select the compatible graphics APIs in the "Player Settings" section of Unity for each platform as shown below.
+Manually select the compatible graphics APIs in the "Player Settings" section of Unity for each platform.
 
 Android platform:
 - To allow the application to have internet access for streaming videos, select the "Require" value for the "Internet Access" option in the Unity player settings.
