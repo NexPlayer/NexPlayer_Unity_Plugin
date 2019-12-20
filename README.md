@@ -113,7 +113,7 @@ Add the following scenes to the Unity build:
 
 Switch to the desired platform.
 
-![Load Demo](resources/build_settings.png)
+![Load Demo](resources/unity_scene_setup.png)
 
 
 #### 4) Configuration steps
