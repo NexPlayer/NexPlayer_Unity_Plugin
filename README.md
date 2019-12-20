@@ -333,6 +333,3 @@ void Update (){
 
 ## Contact
 [supportmadrid@nexplayer.com](mailto:supportmadrid@nexplayer.com)
-
-## License
-[NexPlayer for Unity Product License](resources/License.txt)
