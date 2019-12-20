@@ -87,7 +87,7 @@ Create a new [Unity](https://unity3d.com/) project and import the NexPlayer™ U
 In order to load the player [Scene](https://docs.unity3d.com/Manual/UsingTheSceneView.html) follow the path: 'Assets/NexPlayer/Scenes' and open 'NexPlayer_RawImage_Sample.unity' by double clicking.
 Test the playback by selecting the play button in the editor.
 
-![NexPlayer Plugin](resources/playback_demo.png)
+![NexPlayer Plugin](resources/playback_demo1.png)
 
 #### 2) Play a 360 scene
 
