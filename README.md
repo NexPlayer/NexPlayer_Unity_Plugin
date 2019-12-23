@@ -71,7 +71,7 @@ The NexPlayer™ video plugin for Unity includes many of the same [NexPlayer360 
 
 
 ## Documentation
-Here is the official [documentation](Unity_Integration_Guide.pdf) for the NexPlayer™ Unity video streaming player plugin.
+Here is the official [documentation](Unity_Integration_Guide_12_18_19.pdf) for the NexPlayer™ Unity video streaming player plugin.
 
 
 ## Integration Guide
