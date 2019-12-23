@@ -70,10 +70,6 @@ The NexPlayer™ video plugin for Unity includes many of the same [NexPlayer360 
 - Compatible with VR libraries for Unity (Google Cardboard, Vive & Oculus)
 
 
-## Documentation
-Here is the official [documentation](Unity_Integration_Guide_12_18_19.pdf) for the NexPlayer™ Unity video streaming player plugin.
-
-
 ## Integration Guide
 
 
