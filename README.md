@@ -14,8 +14,6 @@ This repository contains the NexPlayer™ Unity video streaming player plugin fe
 
 * **[NexPlayer360 Plugin](#nexplayer360-plugin)**
 
-* **[Documentation](#documentation)**
-
 * **[Integration Guide](#integration-guide)**
 
 
