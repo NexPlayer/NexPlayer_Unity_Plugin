@@ -1,6 +1,6 @@
-## NexPlayer™ Unity Video Streaming Player Plugin
+## NexPlayer™ for Unity
 
-
+### NexPlayer Unity Video Streaming Player Plugin
 
 ![NexPlayer Cube_Demo](resources/unity_cube_demo3.gif)
 
@@ -8,18 +8,16 @@ NexPlayer™ for Unity is a multiscreen video streaming player for Unity apps th
 
 This repository contains the NexPlayer™ Unity video streaming player plugin features list as well as an integration guide. If you want to get a copy of our fully working demo, contact us at our [website](https://www.nexplayersdk.com/contact?utm_source=github&utm_medium=organic&utm_campaign=unite&utm_content=20190918--unity).
 
-* **[Features](#features-for-android--ioS)**  
+* **[Features](#features)**  
 
 * **[Supported Platforms](#supported-platforms)**
-
-* **[NexPlayer360 Plugin](#nexplayer360-plugin)**
 
 * **[Integration Guide](#integration-guide)**
 
 
 ![NexPlayer Unity Video Streaming Player Plugin](resources/unity_player_3d_scene_12_13_2019.png)
 
-## Features for Android & iOS
+## Features
 
 The NexPlayer™ for Unity video streaming player plugin contains the latest features. As our Unity video plugin is developed entirely in-house, we can implement any desired functionalities. 
 
@@ -30,7 +28,6 @@ We support the following features:
     - HLS & DASH Streaming with ABR (Adaptive Bitrate)
     - Widevine DRM on Local Playback and Streaming   
     - Low Latency Live Streaming
-    - 360 Video Playback and Virtual Reality (VR)
     - Up to 4K Ultra High Definition (UHD) Resolution
     - Rendering Videos in 2D & 3D Objects
 - Basic Features:
@@ -44,32 +41,26 @@ We support the following features:
     - Adjustable Buffering Time
     - Offline Streaming Playback for HLS & DASH    
     - SRT, SMI, & WebVTT Subtitles & CEA-608/708 Closed Captions 
-    - Compatible With Multiple Audio & Subtitle Tracks
-    - Content Information and Statistics (Audio & Video Bitrate, Codec & Average FPS, and More)
+    - Multiple Audio & Subtitle Track Selection
+    - Content Information and Statistics (Audio & Video Bitrate, Codec, Average FPS, and More)
     - Transparency and Chroma Support
-    
+- 360 Video Playback and Virtual Reality (VR)
+    - Touch input which includes movement, and camera rotation
+    - Gyroscope input to move the camera
+    - Mouse input to move the camera
+    - Automatic Ground Leveler to stabilize the video
+    - Custom shaders to map 2D, 3D Over/Under and 3D Left/Right 360 videos
+    - Compatible with VR libraries for Unity (Google Cardboard, Vive & Oculus)
+
 ## Supported Platforms
+
 | Platform | Supported Graphics APIs | HLS | DASH | Local | Inside App (Streaming Assets) |
-| ------ | ------ | ------ | ------ | ------ | ------ |
+| :-----:| :-----:| :-----:| :-----:| :-----:| :-----:|
 | Android  | OpenGLES2, OpenGLES3 | O | O | O | O |
 | iOS | OpenGLES2, OpenGLES3, Metal | O | O | O | O |
 | Windows | DirectX11 | O | O | O | O |
 
-
-
-## NexPlayer360™ Plugin
-The NexPlayer™ video plugin for Unity includes many of the same [NexPlayer360 SDK](https://www.nexplayersdk.com/360-video-player-sdk/), features such as:
-- Touch input which includes movement, zoom and camera rotation
-- Gyroscope input to move the camera
-- Mouse input to move the camera
-- Automatic Ground Leveler to stabilize the video
-- Custom shaders to map 2D, 3D Over/Under and 3D Left/Right 360 videos
-- Customizable key controls
-- Compatible with VR libraries for Unity (Google Cardboard, Vive & Oculus)
-
-
 ## Integration Guide
-
 
 ### Quick start
 #### 1) Play standard video
@@ -114,12 +105,14 @@ Switch to the desired platform.
 
 Manually select the compatible graphics APIs in the "Player Settings" section of Unity for each platform.
 
-Android platform:
+#### Android platform:
+
 - To allow the application to have internet access for streaming videos, select the "Require" value for the "Internet Access" option in the Unity player settings.
 - Set "Write Permision" to External (SDcard)
 - Make sure to set a specific app ID under "Package Name" as required by Unity before compiling your application.
 
-iOS platform:
+#### iOS platform:
+
 - To view HTTP videos, enable "Allow downloads over HTTP" option.
 - After compilation, in XCode make sure to set a "Signing Team."
 - Under embedded binaries, click the "Plus" button and add:
