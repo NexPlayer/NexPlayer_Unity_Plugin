@@ -12,7 +12,7 @@ This repository contains the NexPlayer™ Unity video streaming player plugin fe
 
 * **[Supported Platforms](#supported-platforms)**
 
-* **[Integration Guide](#demo-installation-guide)**
+* **[Demo Installation Guide](#demo-installation-guide)**
 
 
 ![NexPlayer Unity Video Streaming Player Plugin](resources/unity_player_3d_scene_12_13_2019.png)
