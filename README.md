@@ -60,9 +60,8 @@ We support the following features:
 | iOS | OpenGLES2, OpenGLES3, Metal | O | O | O | O |
 | Windows | DirectX11 | O | O | O | O |
 
-## Integration Guide
+## Demo Installation Guide
 
-### Quick start
 #### 1) Play standard video
 
 Create a new [Unity](https://unity3d.com/) project and import the NexPlayer™ Unity video streaming player plugin.
