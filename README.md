@@ -51,7 +51,7 @@ We support the following features:
 ## Supported Platforms
 | Platform | Supported Graphics APIs | HLS | DASH | Local | Inside App (Streaming Assets) |
 | ------ | ------ | ------ | ------ | ------ | ------ |
-| Android (armeabi-v7a and x86) | OpenGLES2, OpenGLES3 | O | O | O | O |
+| Android  | OpenGLES2, OpenGLES3 | O | O | O | O |
 | iOS | OpenGLES2, OpenGLES3, Metal | O | O | O | O |
 | Windows | DirectX11 | O | O | O | O |
 
