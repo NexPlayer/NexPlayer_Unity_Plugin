@@ -8,14 +8,15 @@ NexPlayer™ for Unity is a multiscreen video streaming player for Unity apps th
 
 This repository contains the NexPlayer™ Unity video streaming player plugin features list as well as an integration guide. If you want to get a copy of our fully working demo, contact us at our [website](https://www.nexplayersdk.com/contact?utm_source=github&utm_medium=organic&utm_campaign=unite&utm_content=20190918--unity).
 
+## Table of Contents
+
 * **[Features](#features)**  
 
 * **[Supported Platforms](#supported-platforms)**
 
 * **[Demo Installation Guide](#demo-installation-guide)**
 
-
-![NexPlayer Unity Video Streaming Player Plugin](resources/unity_player_3d_scene_12_13_2019.png)
+<img src="https://github.com/NexPlayer/NexPlayer_Unity_Plugin/blob/master/resources/Big%20Buck%20Bunny%20Demo.gif" alt="NexPlayer for Unity Video Player Sample Interface">
 
 ## Features
 
