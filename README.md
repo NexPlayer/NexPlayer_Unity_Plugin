@@ -1,13 +1,8 @@
 ## NexPlayer™ for Unity
 
-<div style="width:150px;float:left;">
-    <h3>NexPlayer Unity Video Streaming Player Plugin</h3>
-</div>
-</br>
-<div style="width:150px;float:right;">
-    <a href="https://www.nexplayersdk.com/contact?utm_source=github&utm_medium=organic&utm_campaign=unite&utm_content=20190918--unity" target="_blank" width="100" height="60"><img src="https://github.com/NexPlayer/NexPlayer_Unity_Plugin/blob/master/resources/Request_Demo.png"></a>
-</div>
 
+<h3>NexPlayer Unity Video Streaming Player Plugin<a style="float:right;" href="https://www.nexplayersdk.com/contact?utm_source=github&utm_medium=organic&utm_campaign=unite&utm_content=20190918--unity" target="_blank"><img src="https://github.com/NexPlayer/NexPlayer_Unity_Plugin/blob/master/resources/Request_Demo.png"></img></a></h3>
+    
 ![NexPlayer Cube_Demo](resources/unity_cube_demo3.gif)
 
 NexPlayer™ for Unity is a multiscreen video streaming player for Unity apps that supports both standard and 360 video playback across all Android, iOS and PC devices. NexPlayer™ for Unity is the only playback solution for Unity that supports HLS &amp; DASH live streaming with Widevine DRM across all Android & iOS devices.
@@ -24,6 +19,17 @@ This repository contains the NexPlayer™ Unity video streaming player plugin fe
 
 <img src="https://github.com/NexPlayer/NexPlayer_Unity_Plugin/blob/master/resources/Big%20Buck%20Bunny%20Demo.gif" alt="NexPlayer for Unity Video Player Sample Interface">
 
+<p style="margin-left: 1%; margin-right: 1%;">
+  <img src="https://github.com/NexPlayer/NexPlayer_Unity_Plugin/blob/master/resources/Interactivity.gif" width="49%" height="351px" />
+  <!--img src="https://github.com/NexPlayer/NexPlayer_Unity_Plugin/blob/master/resources/unity_player_3d_scene_12_13_2019.png" width="49%" height="351px" /--> 
+</p>
+
+<table style="margin-left: 1%; margin-right: 1%;">
+    <tr>
+        <td width="50%">Our Unity video plugin incorporates interactivity to add </td>
+        <!--td width="50%">Create virtual live events in Unity using live video and audio streaming.</td-->
+    </tr>
+</table>
 
 ## Features
 
