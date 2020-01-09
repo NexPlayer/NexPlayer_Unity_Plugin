@@ -1,4 +1,4 @@
-<h2 style="line-height:2;"><a>NexPlayer™ for Unity</a><a href="https://www.nexplayersdk.com/contact?utm_source=github&utm_medium=organic&utm_campaign=unite&utm_content=20190918--unity" target="_blank"><img src="https://github.com/NexPlayer/NexPlayer_Unity_Plugin/blob/master/resources/Request_Demo.png" align="right"></img></a></h2>
+<h2 style="line-height:2;"><a>NexPlayer™ for Unity</a><a href="https://www.nexplayersdk.com/contact?utm_source=github&utm_medium=organic&utm_campaign=gdc2020&utm_content=20200901--gdcgithubcontact" target="_blank"><img src="https://github.com/NexPlayer/NexPlayer_Unity_Plugin/blob/master/resources/Request_Demo.png" align="right"></img></a></h2>
 
 </br>
 
