@@ -1,8 +1,8 @@
-<h2 style="line-height:2;"><a>NexPlayer™ for Unity</a><a href="https://www.nexplayersdk.com/contact?utm_source=github&utm_medium=organic&utm_campaign=gdc2020&utm_content=20200901--gdcgithubcontact" target="_blank"><img src="https://github.com/NexPlayer/NexPlayer_Unity_Plugin/blob/master/resources/Request_Demo.png" align="right"></img></a></h2>
+<h2 style="line-height:2;"><a>NexPlayer™ for Unity</a><a href="https://www.nexplayersdk.com/contact?utm_source=github&utm_medium=organic&utm_campaign=unity&utm_content=20200901--unitycontactbutton" target="_blank"><img src="https://github.com/NexPlayer/NexPlayer_Unity_Plugin/blob/master/resources/Request_Demo.png" alt="Unity video player" align="right"></img></a></h2>
 
 </br>
 
-![NexPlayer Unity Video Streaming Player Plugin](resources/unity_cube_demo3.gif)
+![NexPlayer Unity Video Streaming Player Plugin](resources/Big%20Buck%20Bunny%20Demo.gif)
 
 NexPlayer™ for Unity is a multiscreen video streaming player for Unity apps that supports both standard and 360 video playback across all Android, iOS and PC devices. NexPlayer™ for Unity is the only playback solution for Unity that supports HLS &amp; DASH live streaming with Widevine DRM across all Android & iOS devices.
 
@@ -15,22 +15,12 @@ This repository contains the NexPlayer™ Unity video streaming player plugin fe
 * **[Supported Platforms](#supported-platforms)**
 
 * **[Demo Installation Guide](#demo-installation-guide)**
-
-<img src="https://github.com/NexPlayer/NexPlayer_Unity_Plugin/blob/master/resources/Big%20Buck%20Bunny%20Demo.gif" alt="NexPlayer for Unity Video Player Sample Interface">
-
- <img src="https://github.com/NexPlayer/NexPlayer_Unity_Plugin/blob/master/resources/Interactivity.gif">
  
-<!--p style="margin-left: 1%; margin-right: 1%;">
-  <img src="https://github.com/NexPlayer/NexPlayer_Unity_Plugin/blob/master/resources/Interactivity.gif" width="49%" height="351px" /-->
-  <!--img src="https://github.com/NexPlayer/NexPlayer_Unity_Plugin/blob/master/resources/unity_player_3d_scene_12_13_2019.png" width="49%" height="351px" /--> 
-</p>
+ <br>
+ 
+<p align="center" style="border-style:solid"><a rel="noopener noreferrer"><img src="https://github.com/NexPlayer/NexPlayer_Unity_Plugin/blob/master/resources/Interactivity2.gif" style="max-width:100%;" height="250"></a> <a rel="noopener noreferrer"><img src="https://github.com/NexPlayer/NexPlayer_Unity_Plugin/blob/master/resources/Cube_Demo.gif" alt="NexPlayer for Unity Video Player Sample Interface" style="max-width:70%;" height="250"></a></p>
 
-<table style="margin-left: 1%; margin-right: 1%;">
-    <tr>
-        <td width="50%">Our Unity video plugin allows for additional interactivity within your Unity projects. With our plugin, you can use in-game actions and objects to modify video content.</td>
-        <!--td width="50%">Create virtual live events in Unity using live video and audio streaming.</td-->
-    </tr>
-</table>
+<p style="margin-left:auto;margin-right:auto" width="300px" align="center"><br>Our Unity video plugin allows for additional interactivity within your Unity projects. With our plugin, you can use in-game actions and objects to modify video content.</p>
 
 ## Features
 
