@@ -1,4 +1,4 @@
-<h2 style="line-height:2;"><a>NexPlayer™ for Unity</a><a href="https://www.nexplayersdk.com/contact?utm_source=github&utm_medium=organic&utm_campaign=unity&utm_content=20200901--unitycontactbutton" target="_blank"><img src="https://github.com/NexPlayer/NexPlayer_Unity_Plugin/blob/master/resources/Request_Demo.png" alt="Unity video player" align="right"></img></a></h2>
+<h2 style="line-height:2;"><a>NexPlayer™ for Unity</a><a href="https://www.nexplayersdk.com/contact?utm_source=github&utm_medium=organic&utm_campaign=unity&utm_content=20200901--unitycontactbutton" target="_blank"><img  src="https://github.com/NexPlayer/NexPlayer_Unity_Plugin/blob/master/resources/Button%20Demo.png" width="23%" height="10%" alt="Unity video player" align="right"></img></a></h2>
 
 </br>
 
@@ -20,7 +20,7 @@ This repository contains the NexPlayer™ Unity video streaming player plugin fe
  
 <p align="center" style="border-style:solid"><a rel="noopener noreferrer"><img src="https://github.com/NexPlayer/NexPlayer_Unity_Plugin/blob/master/resources/Interactivity2.gif" style="max-width:100%;" height="250"></a> <a rel="noopener noreferrer"><img src="https://github.com/NexPlayer/NexPlayer_Unity_Plugin/blob/master/resources/Cube_Demo.gif" alt="NexPlayer for Unity Video Player Sample Interface" style="max-width:70%;" height="250"></a></p>
 
-<p style="margin-left:auto;margin-right:auto" width="300px" align="center">Our Unity video plugin allows for additional interactivity within your Unity projects. With our plugin, you can use in-game actions and objects to modify video content.</p>
+<p style="margin-left:auto;margin-right:auto" width="300px" align="left">Our Unity video plugin allows for additional interactivity within your Unity projects. With our plugin, you can use in-game actions and objects to modify video content.</p>
 
 ## Features
 
