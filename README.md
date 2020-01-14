@@ -62,7 +62,7 @@ We support the following features:
 | Platform | Supported Graphics APIs | HLS | DASH | Local | Inside App (Streaming Assets) |
 | :-----:| :-----:| :-----:| :-----:| :-----:| :-----:|
 | Android  | OpenGLES2, OpenGLES3 | O | O | O | O |
-| iOS | OpenGLES2, OpenGLES3, Metal | O | O | O | O |
+| iOS | Metal | O | O | O | O |
 | Windows | DirectX11 | O | O | O | O |
 
 ## Demo Installation Guide
