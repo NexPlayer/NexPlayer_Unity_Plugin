@@ -1,4 +1,4 @@
-<h2 style="line-height:2;"><a>NexPlayer™ for Unity</a><a href="https://www.nexplayersdk.com/contact?utm_source=github&utm_medium=organic&utm_campaign=unity&utm_content=20200901--unitycontactbutton" target="_blank"><img  src="https://github.com/NexPlayer/NexPlayer_Unity_Plugin/blob/master/resources/Button%20Demo.png" width="23%" height="10%" alt="Unity video player" align="right"></img></a></h2>
+<h1 style="line-height:2;"><a>NexPlayer™ for Unity</a><a href="https://www.nexplayersdk.com/contact?utm_source=github&utm_medium=organic&utm_campaign=unity&utm_content=20200901--unitycontactbutton" target="_blank"><img  src="https://github.com/NexPlayer/NexPlayer_Unity_Plugin/blob/master/resources/Button%20Demo.png" width="23%" height="10%" alt="Unity video player" align="right"></img></a></h1>
 
 </br>
 
@@ -105,7 +105,7 @@ We support the following features:
 
 ## Demo Installation Guide
 
-#### 1) Play standard video
+### 1) Play standard video
 
 Create a new [Unity](https://unity3d.com/) project and import the NexPlayer™ Unity video streaming player plugin.
 
@@ -116,14 +116,14 @@ Test the playback by selecting the play button in the editor.
 
 ![NexPlayer Plugin](resources/playback_demo1.png)
 
-#### 2) Play a 360 scene
+### 2) Play a 360 scene
 
 Load the 360 Video [Scene](https://docs.unity3d.com/Manual/UsingTheSceneView.html) available in 'Assets/NexPlayer/NexPlayer360/Scenes/NexPlayer360.unity'.
 Test the playback by selecting the play button in the editor.
 
 ![NexPlayer Video Streaming Player Plugin](resources/360_scene.gif)
 
-#### 3) Load NexPlayer™ demo
+### 3) Load NexPlayer™ demo
 
 Add the following scenes to the Unity build:
 
@@ -145,17 +145,17 @@ Switch to the desired platform.
 <img src="resources/unity_scene_setup.png" width="50%" height="50%">
 
 
-#### 4) Configuration steps
+### 4) Configuration steps
 
 Manually select the compatible graphics APIs in the "Player Settings" section of Unity for each platform.
 
-#### Android platform:
+### Android platform:
 
 - To allow the application to have internet access for streaming videos, select the "Require" value for the "Internet Access" option in the Unity player settings.
 - Set "Write Permision" to External (SDcard)
 - Make sure to set a specific app ID under "Package Name" as required by Unity before compiling your application.
 
-#### iOS platform:
+### iOS platform:
 
 - To view HTTP videos, enable "Allow downloads over HTTP" option.
 - After compilation, in XCode make sure to set a "Signing Team."
