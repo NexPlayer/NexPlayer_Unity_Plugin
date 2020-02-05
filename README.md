@@ -16,7 +16,7 @@ This repository contains the NexPlayer™ Unity video streaming player plugin fe
 
 * **[Demo Installation Guide](#demo-installation-guide)**
  
- <br>
+ <br> 
  
 <p align="center" style="border-style:solid"><a rel="noopener noreferrer"><img src="https://github.com/NexPlayer/NexPlayer_Unity_Plugin/blob/master/resources/Interactivity2.gif" style="max-width:100%;" height="250"></a> <a rel="noopener noreferrer"><img src="https://github.com/NexPlayer/NexPlayer_Unity_Plugin/blob/master/resources/Cube_Demo.gif" alt="NexPlayer for Unity Video Player Sample Interface" style="max-width:70%;" height="250"></a></p>
 
