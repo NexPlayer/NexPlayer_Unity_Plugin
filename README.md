@@ -40,6 +40,7 @@ We support the following features:
        <li>HLS & DASH Streaming with ABR (Adaptive Bitrate)</li>
        <li>Widevine DRM on Local Playback and Streaming</li>
        <li>Low Latency Live Streaming</li>
+       <li>Windows and macOS Development Mode</li>
        <li>Up to 4K Ultra High Definition (UHD) Resolution</li>
        <li>Rendering Videos in 2D & 3D Objects</li>
        </ul>
@@ -100,6 +101,7 @@ We support the following features:
 | Android  | OpenGLES2, OpenGLES3 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | iOS | Metal | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | Windows | DirectX11 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+| macOS | Metal | :heavy_check_mark: | :x: | :x: | :heavy_check_mark: |
 
 ## Demo Installation Guide
 
