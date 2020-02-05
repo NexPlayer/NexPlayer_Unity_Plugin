@@ -149,13 +149,13 @@ Switch to the desired platform.
 
 Manually select the compatible graphics APIs in the "Player Settings" section of Unity for each platform.
 
-### Android platform:
+#### Android platform:
 
 - To allow the application to have internet access for streaming videos, select the "Require" value for the "Internet Access" option in the Unity player settings.
 - Set "Write Permision" to External (SDcard)
 - Make sure to set a specific app ID under "Package Name" as required by Unity before compiling your application.
 
-### iOS platform:
+#### iOS platform:
 
 - To view HTTP videos, enable "Allow downloads over HTTP" option.
 - After compilation, in XCode make sure to set a "Signing Team."
