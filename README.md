@@ -28,34 +28,70 @@ The NexPlayer™ for Unity video streaming player plugin contains the latest fea
 
 We support the following features:
 
-- Overview
-    - Unity Versions 2017 or Higher
-    - HLS & DASH Streaming with ABR (Adaptive Bitrate)
-    - Widevine DRM on Local Playback and Streaming   
-    - Low Latency Live Streaming
-    - Up to 4K Ultra High Definition (UHD) Resolution
-    - Rendering Videos in 2D & 3D Objects
-- Basic Features:
-    - Play / Pause
-    - Seek
-    - Audio Volume Adjustment
-    - Loop Playback
-    - Configurable Aspect Ratio
-    - Portrait / Landscape Orientation
-- Advanced Features:
-    - Adjustable Buffering Time
-    - Offline Streaming Playback for HLS & DASH    
-    - SRT, SMI, & WebVTT Subtitles & CEA-608/708 Closed Captions 
-    - Multiple Audio & Subtitle Track Selection
-    - Content Information and Statistics (Audio & Video Bitrate, Codec, Average FPS, and More)
-    - Transparency and Chroma Support
-- 360 Video Playback and Virtual Reality (VR)
-    - Touch input which includes movement, and camera rotation
-    - Gyroscope input to move the camera
-    - Mouse input to move the camera
-    - Automatic Ground Leveler to stabilize the video
-    - Custom shaders to map 2D, 3D Over/Under and 3D Left/Right 360 videos
-    - Compatible with VR libraries for Unity (Google Cardboard, Vive & Oculus)
+<table>
+ <tbody style="text-align:center;">
+   <tr>
+     <td valign="top" style="text-align:center;">
+         <p style="max-width:100%;"><b>Overview</b></p>
+     </td>
+     <td>
+       <ul>
+       <li>Unity Versions 2017 or Higher</li>
+       <li>HLS & DASH Streaming with ABR (Adaptive Bitrate)</li>
+       <li>Widevine DRM on Local Playback and Streaming</li>
+       <li>Low Latency Live Streaming</li>
+       <li>Up to 4K Ultra High Definition (UHD) Resolution</li>
+       <li>Rendering Videos in 2D & 3D Objects</li>
+       </ul>
+     </td>
+        <tr>
+            <td valign="top" style="text-align:center;">
+            <p style="max-width:100%;"><b>Basic Features</b></p>
+     </td>
+     <td>
+       <ul>
+       <li>Play / Pause</li>
+       <li>Seek</li>
+       <li>Audio Volume Adjustment</li>
+       <li>Loop Playback</li>
+       <li>Configurable Aspect Ratio</li>
+       <li>Portrait / Landscape Orientation</li>
+       </ul>
+     </td>
+     </tr>
+     <tr>
+        <td valign="top" style="text-align:center;">
+        <p style="max-width:100%;text-align:center;"><b>Advanced Features</b></p>
+         </td>
+     <td>
+       <ul>
+       <li>Adjustable Buffering Time</li>
+       <li>Offline Streaming Playback for HLS & DASH</li>
+       <li>SRT, SMI, & WebVTT Subtitles & CEA-608/708 Closed Captions</li>
+       <li>Multiple Audio & Subtitle Track Selection</li>
+       <li>Content Information and Statistics (Audio & Video Bitrate, Codec, Average FPS, and More)</li>
+       <li>Transparency and Chroma Support</li>
+       </ul>
+     </td>
+     </tr>
+      <tr>
+        <td valign="top" style="text-align:center;">
+        <p style="max-width:100%;"><b>360 Video Playback and Virtual Reality (VR)</b></p>
+         </td>
+     <td>
+       <ul>
+       <li>Touch input which includes movement, and camera rotation</li>
+       <li>Gyroscope input to move the camera</li>
+       <li>Mouse input to move the camera</li>
+       <li>Automatic Ground Leveler to stabilize the video</li>
+       <li>Custom shaders to map 2D, 3D Over/Under and 3D Left/Right 360 videos</li>
+       <li>Compatible with VR libraries for Unity (Google Cardboard, Vive & Oculus)</li>
+       </ul>
+     </td>
+     </tr>
+   </tr>
+ </tbody>
+</table>
 
 ## Supported Platforms
 
@@ -89,6 +125,7 @@ Test the playback by selecting the play button in the editor.
 
 Add the following scenes to the Unity build:
 
+```cs
 - Assets/NexPlayer/Scenes/MainMenu.unity
 - Assets/NexPlayer/Scenes/NexPlayer_ChangeRenderMode_Sample.unity
 - Assets/NexPlayer/Scenes/NexPlayer_MaterialOverride_Sample.unity
@@ -99,10 +136,11 @@ Add the following scenes to the Unity build:
 - Assets/NexPlayer/Scenes/NexPlayer_Transparency_Sample.unity   
 - Assets/NexPlayer/Scenes/NexPlayer_VideoSpreadRenderTexture_Sample.unity 
 - Assets/NexPlayer/NexPlayer360/Scenes/NexPlayer360.unity
+```
 
 Switch to the desired platform.
 
-![Load Demo](resources/unity_scene_setup.png)
+<img src="resources/unity_scene_setup.png" width="50%" height="50%">
 
 
 #### 4) Configuration steps
