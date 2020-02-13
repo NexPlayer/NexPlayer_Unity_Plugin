@@ -39,7 +39,6 @@ We support the following features:
        <li>Unity Versions 2017 or Higher</li>
        <li>HLS & DASH Streaming with ABR (Adaptive Bitrate)</li>
        <li>Widevine DRM on Local Playback and Streaming</li>
-       <li>Low Latency Live Streaming</li>
        <li>Windows and macOS Development Mode</li>
        <li>Up to 4K Ultra High Definition (UHD) Resolution</li>
        <li>Rendering Videos in 2D & 3D Objects</li>
