@@ -101,7 +101,6 @@ We support the following features:
 | Android  | OpenGLES2, OpenGLES3 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | iOS | Metal | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | Windows | DirectX11 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
-| macOS | Metal | :heavy_check_mark: | :x: | :x: | :heavy_check_mark: |
 
 ## Demo Installation Guide
 
