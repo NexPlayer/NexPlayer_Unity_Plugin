@@ -103,14 +103,6 @@ We support the following features:
 | iOS | Metal | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | Windows | DirectX11 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 
-## Minimum Requirements
-
-|Platform | Version |
-| :------: | :------: |
-|Unity |2017.1 |
-|Android|Android 4.4 (Kit Kat, API Level 19)|
-|iOS|9.0|
-
 ## Demo Installation Guide
 
 ### 1) Play Standard Video
