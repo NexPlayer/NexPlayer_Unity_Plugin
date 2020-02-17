@@ -38,8 +38,8 @@ We support the following features:
        <ul>
        <li>HLS & DASH Streaming with ABR (Adaptive Bitrate)</li>
        <li>Widevine DRM for Streaming and Local Playback for Android & iOS</li>
-       <li>Windows Development Mode</li>
-       <li>Up to 4K (UHD) Resolution</li>
+       <li>Windows Development Mode (Easy to Use)</li>
+       <li>Up to 8K (UHD) Resolution</li>
        <li>Rendering Videos on 2D & 3D Objects</li>
        </ul>
      </td>
