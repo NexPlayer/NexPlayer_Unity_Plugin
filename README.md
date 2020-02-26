@@ -39,7 +39,7 @@ We support the following features:
        <li>HLS & DASH Streaming with ABR (Adaptive Bitrate)</li>
        <li>Widevine DRM for Streaming and Local Playback for Android & iOS</li>
        <li>Server-Side & Client-Side Ad Insertion</li>
-       <li>Windows Development Mode (Easy to Use)</li>
+       <li>Windows & macOS Editor (Easy to Use)</li>
        <li>Up to 8K (UHD) Resolution</li>
        <li>Rendering Videos on 2D & 3D Objects</li>
        </ul>
@@ -69,10 +69,10 @@ We support the following features:
        <li>Adjustable Buffering Time</li>
        <li>Offline Streaming Playback for HLS & DASH</li>
        <li>Multi-Instance Streaming (Play Video Streams Simultaneously)</li>
-       <li>SRT, SMI, & WebVTT Subtitles & CEA-608/708 Closed Captions</li>
+       <li>SRT, SMI, WebVTT Subtitles & CEA-608/708 Closed Captions</li>
        <li>Multiple Audio & Subtitle Track Selection</li>
        <li>Spread Video Across Multiple Objects</li>
-       <li>Content Information and Statistics (Audio & Video Bitrate, Codec, Average FPS, and More)</li>
+       <li>Content Information and Statistics (Audio & Video Bitrate, Codec, Average FPS, etc.)</li>
        <li>Transparency and Chroma Support</li>
        </ul>
      </td>
