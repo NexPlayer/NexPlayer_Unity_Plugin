@@ -103,10 +103,11 @@ We support the following features:
 | Android  | OpenGLES2, OpenGLES3 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | iOS | Metal | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | Windows | DirectX11 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+|macOS|Metal|:heavy_check_mark:|:x:|:heavy_check_mark:|:heavy_check_mark:|
 
 ## Demo Installation Guide
 
-### 1) Play Standard Video
+### 1) Play Regular Video
 
 Create a new [Unity](https://unity3d.com/) project and import the NexPlayer™ Unity video streaming player plugin.
 
