@@ -1,4 +1,6 @@
-<h1 style="line-height:2;"><p align="center"><a><img src="resources/NexPlayer_logo_white_bckg.png" width="45%" height="20%"></a><a href="https://www.nexplayersdk.com/unity-player-sdk-demo/?utm_source=github&utm_medium=referral&utm_campaign=unitygithub&utm_content=20200211--unitydemocontact" target="_blank"><img  src="https://github.com/NexPlayer/NexPlayer_Unity_Plugin/blob/master/resources/Button%20Demo.png" width="23%" height="10%" alt="Unity video player" align="right"></img></a></p></h1>
+<h1 style="line-height:2;"><p align="center"><a href="https://www.nexplayersdk.com/unity-player-sdk-demo/?utm_source=github&utm_medium=referral&utm_campaign=unitygithub&utm_content=20200211--unitydemocontact" target="_blank"><img  src="https://github.com/NexPlayer/NexPlayer_Unity_Plugin/blob/master/resources/Button%20Demo.png" width="23%" height="10%" alt="Unity video player" align="right"></img></a>
+<a align=right><img src="resources/NexPlayer_logo_white_bckg.png" width="100%" height="100%"></a>
+</p></h1>
 
 </br>
 
