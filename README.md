@@ -178,5 +178,5 @@ auto detect any conflict regarding the graphics API, and it will promptly solve 
 
 
 ## Contact
-[supportmadrid@nexplayer.com](mailto:supportmadrid@nexplayer.com)
+[support.madrid@nexplayer.com](mailto:support.madrid@nexplayer.com)
 <br>+34 914 184 356
