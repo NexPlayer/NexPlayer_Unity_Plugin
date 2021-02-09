@@ -10,6 +10,21 @@ NexPlayer™ for Unity is a cross-platform video streaming player for Unity apps
 
 This repository contains the NexPlayer™ Unity video streaming player plugin features list as well as an installation guide. If you want to get a copy of our fully working demo, contact us at our [website](https://www.nexplayersdk.com/unity-player-sdk-demo/?utm_source=github.com&utm_medium=referral&utm_campaign=unitygithub&utm_content=20200211--unitydemocontact).
 
+## Demo Examples
+
+<p style="margin-left:auto;margin-right:auto" width="300px" align="left">Our Unity video plugin allows for the introduction of new exciting scenes within your Unity projects. With our plugin, you can use in-game actions and objects to modify video content.</p>
+ 
+<p align="center" style="border-style:solid"><a rel="noopener noreferrer"><img src="https://github.com/NexPlayer/NexPlayer_Unity_Plugin/blob/master/resources/Interactivity_02_26_430_Optimize2.gif"  width="70%" height="70%"></a>
+</p> 
+<p align="center"><b>In-Game Interactive Videos</b></p> 
+ 
+<p align="center" style="border-style:solid">
+<a rel="noopener noreferrer"><img src="https://github.com/NexPlayer/NexPlayer_Unity_Plugin/blob/master/resources/betting.gif" alt="NexPlayer for Unity Video Player Sample Interface" width="70%" height="70%"></a>
+ </p> 
+<p align="center"><b>Multi Streaming Playback</b></p> 
+
+ <br> 
+
 ## Table of Contents
 
 * **[Features](#features)**  
@@ -19,10 +34,6 @@ This repository contains the NexPlayer™ Unity video streaming player plugin fe
 * **[Demo Installation Guide](#demo-installation-guide)**
  
  <br> 
- 
-<p align="center" style="border-style:solid"><a rel="noopener noreferrer"><img src="https://github.com/NexPlayer/NexPlayer_Unity_Plugin/blob/master/resources/Interactivity_02_26_430_Optimize2.gif" style="max-width:100%;" height="270"></a> <a rel="noopener noreferrer"><img src="https://github.com/NexPlayer/NexPlayer_Unity_Plugin/blob/master/resources/betting.gif" alt="NexPlayer for Unity Video Player Sample Interface" style="max-width:70%;" height="240"></a></p>
-
-<p style="margin-left:auto;margin-right:auto" width="300px" align="left">Our Unity video plugin allows for the introduction of new exciting scenes within your Unity projects. With our plugin, you can use in-game actions and objects to modify video content.</p>
 
 ## Features
 
@@ -173,6 +184,11 @@ Manually select the compatible graphics APIs in the "Player Settings" section of
 A quick and easy way to enable these settings is by using the helper component
 (NexEditorHelper.cs). If the helper component NexEditorHelper.cs is attached to any GameObject, it will include a graphics UI to
 auto detect any conflict regarding the graphics API, and it will promptly solve it.
+
+
+## Frequently Asked Questions
+
+To view the FAQ proceed to the [Unity Support Page](https://support.unity.com/hc/en-us/sections/360011703472-NexPlayer-Verified-Solutions-Partner-)
 
 -------------------
 
