@@ -22,9 +22,8 @@ This repository contains the NexPlayer™ Unity video streaming player plugin fe
 <p align="center" style="border-style:solid">
 <a rel="noopener noreferrer"><img src="https://github.com/NexPlayer/NexPlayer_Unity_Plugin/blob/master/resources/betting.gif" alt="NexPlayer for Unity Video Player Sample Interface" width="70%" height="70%"></a>
  </p> 
-<p align="center"><b>Multi Streaming</b></p> 
+<p align="center"><b>Multi Streaming</b></p><br> 
 
- <br> 
 
 ## Table of Contents
 
@@ -128,23 +127,28 @@ We support the following features:
 <p>Create a new [Unity](https://unity3d.com/) project and import the NexPlayer™ Unity video streaming player plugin.</p>
 <img  src="resources/unityimportinguide/Step_0.png" width="80%" height="80%" alt="Quickstart_Step_0" align="center"></img><br>
 
+
 <p>Create the NexPlayer_Manager GameObject by either using the NexPlayer Context Menu at the top or right clicking in the Hierarchy (Object Context Menu).</p>
 <img  src="resources/unityimportinguide/Step_01.png" width="80%" height="80%" alt="Quickstart_Step_1" align="center"></img><br>
+
 
 <p>Create the NexPlayer_UI GameObject using the NexPlayer™ Context Menu.</p>
 <img  src="resources/unityimportinguide/Step_02.png" width="80%" height="80%" alt="Quickstart_Step_2" align="center"></img><br>
 
+
 <p>Set NexPlayer_Manager references to the UI elements by clicking on the button “Set UI References”.</p>
 <img  src="resources/unityimportinguide/Step_02_01.png" width="80%" height="80%" alt="Quickstart_Step_2_1" align="center"></img><br>
+
 
 <p>Create the NexPlayer Samples Controller GameObject using the NexPlayer™ Context Menu.</p>
 <img  src="resources/unityimportinguide/Step_03.png" width="80%" height="80%" alt="Quickstart_Step_3" align="center"></img><br>
 
+
 <p>Select any of the different samples provided by NexPlayer™.</p>
 <img  src="resources/unityimportinguide/Step_03_01.png" width="80%" height="80%" alt="Quickstart_Step_3_1" align="center"></img><br>
 
+
 <p>Change the NexPlayer™ component inside NexPlayer_Manager with the desired stream settings.</p>
-<br>
 
 
 ### 2) Play a 360 Scene
