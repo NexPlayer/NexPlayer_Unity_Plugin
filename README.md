@@ -170,7 +170,7 @@ Select any of the following samples as the Active Sample setting at the Samples 
 - Material Override
 - Multiple Renderers 
 - Change Render Mode
-- Nex Player 360 
+- Nex Player 360
 - Multistream Raw Image  
 - Multistream Render Texture  
 ```
