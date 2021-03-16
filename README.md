@@ -7,7 +7,7 @@
 ![NexPlayer Unity Video Streaming Player Plugin](resources/girl_cube_gif2.gif)
 
 NexPlayer™ for Unity is a cross-platform video streaming player for Unity apps that supports both regular and 360 video playback across all Android, iOS, macOS,
-and Windows devices, with more devices being worked on everyday. NexPlayer's Unity video plugin is the only player supporting Widevine DRM-protected HLS & DASH streaming on **all Android & iOS devices.**
+Windows devices and HTML5 Web Browsers, with more devices being worked on everyday. NexPlayer's Unity video plugin is the only player supporting Widevine DRM-protected HLS & DASH streaming on **all Android & iOS devices.**
 
 This repository contains the NexPlayer™ Unity video streaming player plugin features list as well as an installation guide. If you want to get a copy of our fully working demo, contact us at our [website](https://www.nexplayersdk.com/unity-player-sdk-demo/?utm_source=github.com&utm_medium=referral&utm_campaign=unitygithub&utm_content=20200211--unitydemocontact).
 
@@ -18,13 +18,13 @@ This repository contains the NexPlayer™ Unity video streaming player plugin fe
 <p align="center" style="border-style:solid"><a rel="noopener noreferrer"><img src="https://github.com/NexPlayer/NexPlayer_Unity_Plugin/blob/master/resources/Interactivity_02_26_430_Optimize2.gif"  width="70%" height="70%"></a>
 </p> 
 <p align="center"><b>Play videos on any Unity Game Object</b></p> 
+<br> 
  
 <p align="center" style="border-style:solid">
 <a rel="noopener noreferrer"><img src="https://github.com/NexPlayer/NexPlayer_Unity_Plugin/blob/master/resources/betting.gif" alt="NexPlayer for Unity Video Player Sample Interface" width="70%" height="70%"></a>
  </p> 
-<p align="center"><b>Multi Streaming</b></p> 
+<p align="center"><b>Multi Streaming</b></p><br> 
 
- <br> 
 
 ## Table of Contents
 
@@ -125,42 +125,57 @@ We support the following features:
 
 ### 1) Play Regular Video
 
-Create a new [Unity](https://unity3d.com/) project and import the NexPlayer™ Unity video streaming player plugin.
+<p>Create a new [Unity](https://unity3d.com/) project and import the NexPlayer™ Unity video streaming player plugin.</p>
+<img  src="resources/unityimportinguide/Step_0.png" width="80%" height="80%" alt="Quickstart_Step_0" align="center"></img><br>
 
-![NexPlayer Plugin](resources/import_package.png)
 
-Load the player [Scene](https://docs.unity3d.com/Manual/UsingTheSceneView.html) by following the path: 'Assets/NexPlayer/Scenes' and opening 'NexPlayer_RawImage_Sample.unity' by double clicking.
-Test the playback by selecting the play button in the editor.
+<p>Create the NexPlayer_Manager GameObject by either using the NexPlayer Context Menu at the top or right clicking in the Hierarchy (Object Context Menu).</p>
+<img  src="resources/unityimportinguide/Step_01.png" width="80%" height="80%" alt="Quickstart_Step_1" align="center"></img><br>
 
-![NexPlayer Plugin](resources/playback_demo1.png)
+
+<p>Create the NexPlayer_UI GameObject using the NexPlayer™ Context Menu.</p>
+<img  src="resources/unityimportinguide/Step_02.png" width="80%" height="80%" alt="Quickstart_Step_2" align="center"></img><br>
+
+
+<p>Set NexPlayer_Manager references to the UI elements by clicking on the button “Set UI References”.</p>
+<img  src="resources/unityimportinguide/Step_02_01.png" width="80%" height="80%" alt="Quickstart_Step_2_1" align="center"></img><br>
+
+
+<p>Create the NexPlayer Samples Controller GameObject using the NexPlayer™ Context Menu.</p>
+<img  src="resources/unityimportinguide/Step_03.png" width="80%" height="80%" alt="Quickstart_Step_3" align="center"></img><br>
+
+
+<p>Select any of the different samples provided by NexPlayer™.</p>
+<img  src="resources/unityimportinguide/Step_03_01.png" width="80%" height="80%" alt="Quickstart_Step_3_1" align="center"></img><br>
+
+
+<p>Finally, Change the NexPlayer™ component inside NexPlayer_Manager with the desired stream settings.</p>
+
 
 ### 2) Play a 360 Scene
 
-Load the 360 Video [Scene](https://docs.unity3d.com/Manual/UsingTheSceneView.html) available in 'Assets/NexPlayer/NexPlayer360/Scenes/NexPlayer360.unity'.
-Test the playback by selecting the play button in the editor.
+Select the value Nex Player 360 for the Active Sample setting at the Samples Controller GameObject.
 
 ![NexPlayer Video Streaming Player Plugin](resources/360_scene.gif)
 
-### 3) Load NexPlayer™ Demo
+### 3) Load Any NexPlayer™ Sample Demo
 
-Add the following scenes to the Unity build:
+Select any of the following samples as the Active Sample setting at the Samples Controller GameObject.
 
 ```cs
-- Assets/NexPlayer/Scenes/MainMenu.unity
-- Assets/NexPlayer/Scenes/NexPlayer_ChangeRenderMode_Sample.unity
-- Assets/NexPlayer/Scenes/NexPlayer_MaterialOverride_Sample.unity
-- Assets/NexPlayer/Scenes/NexPlayer_Multistream_RenderTexture
-- Assets/NexPlayer/Scenes/NexPlayer_Multistream_RawImage
-- Assets/NexPlayer/Scenes/NexPlayer_PlaybackMultipleRenderer_Sample.unity   
-- Assets/NexPlayer/Scenes/NexPlayer_PlaybackSetting_Sample.unity
-- Assets/NexPlayer/Scenes/NexPlayer_RawImage_Sample.unity   
-- Assets/NexPlayer/Scenes/NexPlayer_RenderTexture_Sample.unity   
-- Assets/NexPlayer/Scenes/NexPlayer_Transparency_Sample.unity   
-- Assets/NexPlayer/Scenes/NexPlayer_VideoSpreadRenderTexture_Sample.unity 
-- Assets/NexPlayer/NexPlayer360/Scenes/NexPlayer360.unity
+- Raw Image
+- Render Texture
+- Transparency
+- Video Spread
+- Material Override
+- Multiple Renderers 
+- Change Render Mode
+- NexPlayer360
+- Multistream Raw Image  
+- Multistream Render Texture  
 ```
 
-Switch to the desired platform.
+Add the Scene to the list and switch to the desired platform.
 
 <img src="resources/Scenes.png" width="60%" height="60%">
 
