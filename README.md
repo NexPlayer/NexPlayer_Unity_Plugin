@@ -149,33 +149,30 @@ We support the following features:
 <img  src="resources/unityimportinguide/Step_03_01.png" width="80%" height="80%" alt="Quickstart_Step_3_1" align="center"></img><br>
 
 
-<p>Change the NexPlayer™ component inside NexPlayer_Manager with the desired stream settings.</p>
+<p>Finally, Change the NexPlayer™ component inside NexPlayer_Manager with the desired stream settings.</p>
 
 
 ### 2) Play a 360 Scene
 
-Load the 360 Video [Scene](https://docs.unity3d.com/Manual/UsingTheSceneView.html) available in 'Assets/NexPlayer/NexPlayer360/Scenes/NexPlayer360.unity'.
-Test the playback by selecting the play button in the editor.
+Select the value Nex Player 360 for the Active Sample setting at the Samples Controller GameObject.
 
 ![NexPlayer Video Streaming Player Plugin](resources/360_scene.gif)
 
-### 3) Load NexPlayer™ Demo
+### 3) Load Any NexPlayer™ Sample Demo
 
-Add the following scenes to the Unity build:
+Select any of the following samples as the Active Sample setting at the Samples Controller GameObject.
 
 ```cs
-- Assets/NexPlayer/Scenes/MainMenu.unity
-- Assets/NexPlayer/Scenes/NexPlayer_ChangeRenderMode_Sample.unity
-- Assets/NexPlayer/Scenes/NexPlayer_MaterialOverride_Sample.unity
-- Assets/NexPlayer/Scenes/NexPlayer_Multistream_RenderTexture
-- Assets/NexPlayer/Scenes/NexPlayer_Multistream_RawImage
-- Assets/NexPlayer/Scenes/NexPlayer_PlaybackMultipleRenderer_Sample.unity   
-- Assets/NexPlayer/Scenes/NexPlayer_PlaybackSetting_Sample.unity
-- Assets/NexPlayer/Scenes/NexPlayer_RawImage_Sample.unity   
-- Assets/NexPlayer/Scenes/NexPlayer_RenderTexture_Sample.unity   
-- Assets/NexPlayer/Scenes/NexPlayer_Transparency_Sample.unity   
-- Assets/NexPlayer/Scenes/NexPlayer_VideoSpreadRenderTexture_Sample.unity 
-- Assets/NexPlayer/NexPlayer360/Scenes/NexPlayer360.unity
+- Raw Image
+- Render Texture
+- Transparency
+- Video Spread
+- Material Override
+- Multiple Renderers 
+- Change Render Mode
+- Nex Player 360 
+- Multistream Raw Image  
+- Multistream Render Texture  
 ```
 
 Switch to the desired platform.
