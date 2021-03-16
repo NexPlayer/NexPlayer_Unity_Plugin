@@ -128,28 +128,36 @@ We support the following features:
 Create a new [Unity](https://unity3d.com/) project and import the NexPlayer™ Unity video streaming player plugin.
 
 ![NexPlayer Import](resources/unityimportinguide/Step_0.png)
+</br>
 
 Create the NexPlayer_Manager GameObject by either using the NexPlayer Context Menu at the top or right clicking in the Hierarchy (Object Context Menu).
 
 ![NexPlayer Manager Object](resources/unityimportinguide/Step_01.png)
+</br>
 
 Create the NexPlayer_UI GameObject using the NexPlayer™ Context Menu.
 
 ![NexPlayer Manager Object](resources/unityimportinguide/Step_02.png)
+</br>
 
 Set NexPlayer_Manager references to the UI elements by clicking on the button “Set UI References”.
 
 ![NexPlayer Manager Object](resources/unityimportinguide/Step_02_01.png)
+</br>
 
 Create the NexPlayer Samples Controller GameObject using the NexPlayer™ Context Menu.
 
 ![NexPlayer Manager Object](resources/unityimportinguide/Step_03.png)
+</br>
 
 Select any of the different samples provided by NexPlayer™.
 
+
 ![NexPlayer Manager Object](resources/unityimportinguide/Step_03_01.png)
+</br>
 
 Change the NexPlayer™ component inside NexPlayer_Manager with the desired stream settings.
+
 
 ### 2) Play a 360 Scene
 
