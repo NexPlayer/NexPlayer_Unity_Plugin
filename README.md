@@ -170,12 +170,12 @@ Select any of the following samples as the Active Sample setting at the Samples 
 - Material Override
 - Multiple Renderers 
 - Change Render Mode
-- Nex Player 360
+- NexPlayer360
 - Multistream Raw Image  
 - Multistream Render Texture  
 ```
 
-Switch to the desired platform.
+Add the Scene to the list and switch to the desired platform.
 
 <img src="resources/Scenes.png" width="60%" height="60%">
 
