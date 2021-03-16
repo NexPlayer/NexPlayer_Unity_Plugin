@@ -125,38 +125,26 @@ We support the following features:
 
 ### 1) Play Regular Video
 
-Create a new [Unity](https://unity3d.com/) project and import the NexPlayer™ Unity video streaming player plugin.
+<p>Create a new [Unity](https://unity3d.com/) project and import the NexPlayer™ Unity video streaming player plugin.</p>
+<img  src="resources/unityimportinguide/Step_0.png" width="80%" height="80%" alt="Quickstart_Step_0" align="center"></img><br>
 
-![NexPlayer Import](resources/unityimportinguide/Step_0.png)
-</br>
+<p>Create the NexPlayer_Manager GameObject by either using the NexPlayer Context Menu at the top or right clicking in the Hierarchy (Object Context Menu).</p>
+<img  src="resources/unityimportinguide/Step_01.png" width="80%" height="80%" alt="Quickstart_Step_1" align="center"></img><br>
 
-Create the NexPlayer_Manager GameObject by either using the NexPlayer Context Menu at the top or right clicking in the Hierarchy (Object Context Menu).
+<p>Create the NexPlayer_UI GameObject using the NexPlayer™ Context Menu.</p>
+<img  src="resources/unityimportinguide/Step_02.png" width="80%" height="80%" alt="Quickstart_Step_2" align="center"></img><br>
 
-![NexPlayer Manager Object](resources/unityimportinguide/Step_01.png)
-</br>
+<p>Set NexPlayer_Manager references to the UI elements by clicking on the button “Set UI References”.</p>
+<img  src="resources/unityimportinguide/Step_02_01.png" width="80%" height="80%" alt="Quickstart_Step_2_1" align="center"></img><br>
 
-Create the NexPlayer_UI GameObject using the NexPlayer™ Context Menu.
+<p>Create the NexPlayer Samples Controller GameObject using the NexPlayer™ Context Menu.</p>
+<img  src="resources/unityimportinguide/Step_03.png" width="80%" height="80%" alt="Quickstart_Step_3" align="center"></img><br>
 
-![NexPlayer Manager Object](resources/unityimportinguide/Step_02.png)
-</br>
+<p>Select any of the different samples provided by NexPlayer™.</p>
+<img  src="resources/unityimportinguide/Step_03_01.png" width="80%" height="80%" alt="Quickstart_Step_3_1" align="center"></img><br>
 
-Set NexPlayer_Manager references to the UI elements by clicking on the button “Set UI References”.
-
-![NexPlayer Manager Object](resources/unityimportinguide/Step_02_01.png)
-</br>
-
-Create the NexPlayer Samples Controller GameObject using the NexPlayer™ Context Menu.
-
-![NexPlayer Manager Object](resources/unityimportinguide/Step_03.png)
-</br>
-
-Select any of the different samples provided by NexPlayer™.
-
-
-![NexPlayer Manager Object](resources/unityimportinguide/Step_03_01.png)
-</br>
-
-Change the NexPlayer™ component inside NexPlayer_Manager with the desired stream settings.
+<p>Change the NexPlayer™ component inside NexPlayer_Manager with the desired stream settings.</p>
+<br>
 
 
 ### 2) Play a 360 Scene
