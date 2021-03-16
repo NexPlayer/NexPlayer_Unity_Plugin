@@ -147,7 +147,9 @@ Create the NexPlayer Samples Controller GameObject using the NexPlayer™ Contex
 
 Select any of the different samples provided by NexPlayer™.
 
-Change the NexPlayer™ component inside NexPlayer_Manager with the required stream settings.
+![NexPlayer Manager Object](resources/unityimportinguide/Step_03_01.png)
+
+Change the NexPlayer™ component inside NexPlayer_Manager with the desired stream settings.
 
 ### 2) Play a 360 Scene
 
