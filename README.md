@@ -125,7 +125,7 @@ We support the following features:
 
 ### 1) Play Regular Video
 
-<p>Create a new [Unity](https://unity3d.com/) project and import the NexPlayer™ Unity video streaming player plugin.</p>
+<p>Create a new <a href="https://unity3d.com/">Unity</a> project and import the NexPlayer™ Unity video streaming player plugin.</p>
 <img  src="resources/unityimportinguide/Step_0.png" width="80%" height="80%" alt="Quickstart_Step_0" align="center"></img><br>
 
 
