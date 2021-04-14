@@ -51,6 +51,7 @@ We support the following features:
      <td>
        <ul>
        <li>HLS & DASH Streaming with ABR (Adaptive Bitrate)</li>
+       <li>AES-128 HLS</li>
        <li>Widevine DRM for Streaming and Local Playback for Android & iOS</li>
        <li>Server-Side & Client-Side Ad Insertion</li>
        <li>Windows & macOS Editor (Easy to Use)</li>
