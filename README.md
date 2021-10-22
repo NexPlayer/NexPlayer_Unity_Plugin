@@ -123,7 +123,7 @@ We support the following features:
 | Windows | DirectX11 / DirectX12 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 |macOS|Metal|:heavy_check_mark:||:heavy_check_mark:|:heavy_check_mark:|
 |HTML 5|WebGL 1.0 / WebGL 2.0|:heavy_check_mark:|:heavy_check_mark:|||
-|Nintendo|NVN|:heavy_check_mark:|:heavy_check_mark:|||
+|Nintendo Switch|NVN|:heavy_check_mark:|:heavy_check_mark:|||
 
 ## Demo Installation Guide
 
