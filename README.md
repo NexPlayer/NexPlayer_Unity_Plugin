@@ -84,7 +84,6 @@ We support the following features:
      <td>
        <ul>
        <li>Adjustable Buffering Time</li>
-       <li>Low Latency HLS & DASH Streaming</li>
        <li>Offline Streaming Playback for HLS & DASH</li>
        <li>Multi View Streaming (Display Multiple Synchronized Streams)</li>
        <li>SRT, SMI, WebVTT Subtitles & CEA-608/708 Closed Captions</li>
