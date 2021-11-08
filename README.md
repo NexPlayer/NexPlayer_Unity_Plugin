@@ -84,10 +84,9 @@ We support the following features:
      <td>
        <ul>
        <li>Adjustable Buffering Time</li>
-       <li>Low Latency HLS & DASH Streaming</li>
        <li>Offline Streaming Playback for HLS & DASH</li>
        <li>Multi View Streaming (Display Multiple Synchronized Streams)</li>
-       <li>SRT, SMI, WebVTT Subtitles & CEA-608/708 Closed Captions</li>
+       <li>WebVTT Subtitles & CEA-608/708 Closed Captions</li>
        <li>Multiple Audio & Subtitle Track Selection</li>
        <li>Spread Video Across Multiple Objects</li>
        <li>Content Information and Statistics (Audio & Video Bitrate, Codec, Average FPS, etc.)</li>
