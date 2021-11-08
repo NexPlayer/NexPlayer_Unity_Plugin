@@ -84,10 +84,9 @@ We support the following features:
      <td>
        <ul>
        <li>Adjustable Buffering Time</li>
-       <li>Low Latency HLS & DASH Streaming</li>
        <li>Offline Streaming Playback for HLS & DASH</li>
        <li>Multi View Streaming (Display Multiple Synchronized Streams)</li>
-       <li>SRT, SMI, WebVTT Subtitles & CEA-608/708 Closed Captions</li>
+       <li>WebVTT Subtitles & CEA-608/708 Closed Captions</li>
        <li>Multiple Audio & Subtitle Track Selection</li>
        <li>Spread Video Across Multiple Objects</li>
        <li>Content Information and Statistics (Audio & Video Bitrate, Codec, Average FPS, etc.)</li>
@@ -123,14 +122,59 @@ We support the following features:
 | Windows | DirectX11 / DirectX12 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 |macOS|Metal|:heavy_check_mark:||:heavy_check_mark:|:heavy_check_mark:|
 |HTML 5|WebGL 1.0 / WebGL 2.0|:heavy_check_mark:|:heavy_check_mark:|||
+|Nintendo Switch|NVN|:heavy_check_mark:|:heavy_check_mark:|||
 
 ## Demo Installation Guide
 
-### 1) Play Regular Video
+<p>Create or open an <a href="https://unity3d.com/">Unity</a> project and import the NexPlayer™ Unity video streaming player plugin.</p>
+<img  src="resources/unityimportinguide/Step_0.png" width="80%" height="80%" alt="Quickstart_Step_0" align="center"></img>
 
-<p>Create a new <a href="https://unity3d.com/">Unity</a> project and import the NexPlayer™ Unity video streaming player plugin.</p>
-<img  src="resources/unityimportinguide/Step_0.png" width="80%" height="80%" alt="Quickstart_Step_0" align="center"></img><br>
+### Using NexPlayerSimple
 
+NexPlayerSimple is a slimmed down version of our full-featured example player,
+NexPlayer. You can use it by following this steps:
+
+1. To add video playback to your scene, you will need to add a NexPlayerSimple
+component to your scene:
+   1. Navigate to the NexPlayer menu and click "Create NexPlayer Simple
+Object"
+<br><p><img  src="resources/unityimportinguide/NexPlayerSimple/CreateNexPlayerSimple.png" alt="Create NexPlayer Simple
+Object" align="center"></img></p>
+   2. This will add a new GameObject (NexPlayerSimple) to your scene,
+which will contain the NexPlayerSimple component along with the
+NexPlayerRenderController component.
+2. NexPlayersimple supports any of the three supported RenderModes
+(RawImage, RenderTexture and Material Override). Using the inspector in the
+NexPlayerRenderController component, select the desired Render Mode and
+set the reference to that Render Object.
+<br><p><img  src="resources/unityimportinguide/NexPlayerSimple/RenderModeSettings.png" alt="Render Mode settings" align="center"></img></p>
+
+#### Example: Using Raw Image
+
+1. Set the "Starting Render Mode" to Raw Image:
+<br><p><img  src="resources/unityimportinguide/NexPlayerSimple/StartingRenderModeRI.png" alt="Starting Render Mode: Material Override" align="center"></img></p>
+2. Create a Raw Image in your scene (GameObject → UI → Raw Image) and
+drag and drop it onto the Raw Image field of the NexPlayerRenderController
+component:
+<br><p><img  src="resources/unityimportinguide/NexPlayerSimple/RenderModeSettingsRITarget.png" alt="Set the RawImage field" align="center"></img></p>
+3. Start the scene and the video will play on the Raw Image.
+
+#### Example: Using Material Override
+
+1. Set the "Starting Render Mode" to Material Override:
+<br><p><img  src="resources/unityimportinguide/NexPlayerSimple/StartingRenderModeMO.png" alt="Starting Render Mode: Raw Image" align="center"></img></p>
+2. Create a cube in your scene (GameObject → 3D Object → Cube) and drag
+and drop it onto the Material Override field of the NexPlayerRenderController
+component:
+<br><p><img  src="resources/unityimportinguide/NexPlayerSimple/RenderModeSettingsMOTarget.png" alt="Create NexPlayer Simple
+Object" align="center"></img></p>
+3. Start the scene and the video will play on the cube.
+
+### Using NexPlayer
+
+NexPlayer is our full-featured example player. You can use it by following this steps:
+
+#### 1) Play Regular Video
 
 <p>Create the NexPlayer_Manager GameObject by either using the NexPlayer Context Menu at the top or right clicking in the Hierarchy (Object Context Menu).</p>
 <img  src="resources/unityimportinguide/Step_01.png" width="80%" height="80%" alt="Quickstart_Step_1" align="center"></img><br>
@@ -140,7 +184,7 @@ We support the following features:
 <img  src="resources/unityimportinguide/Step_02.png" width="80%" height="80%" alt="Quickstart_Step_2" align="center"></img><br>
 
 
-<p>Set NexPlayer_Manager references to the UI elements by clicking on the button “Set UI References”.</p>
+<p>Set NexPlayer_Manager references to the UI elements by clicking on the button "Set UI References".</p>
 <img  src="resources/unityimportinguide/Step_02_01.png" width="80%" height="80%" alt="Quickstart_Step_2_1" align="center"></img><br>
 
 
@@ -155,13 +199,13 @@ We support the following features:
 <p>Finally, Change the NexPlayer™ component inside NexPlayer_Manager with the desired stream settings.</p>
 
 
-### 2) Play a 360 Scene
+#### 2) Play a 360 Scene
 
 Select the value Nex Player 360 for the Active Sample setting at the Samples Controller GameObject.
 
 ![NexPlayer Video Streaming Player Plugin](resources/360_scene.gif)
 
-### 3) Load Any NexPlayer™ Sample Demo
+#### 3) Load Any NexPlayer™ Sample Demo
 
 Select any of the following samples as the Active Sample setting at the Samples Controller GameObject.
 
@@ -183,27 +227,24 @@ Add the Scene to the list and switch to the desired platform.
 <img src="resources/Scenes.png" width="60%" height="60%">
 
 
-### 4) Configuration Steps
+### Platform Build Configuration
 
-Manually select the compatible graphics APIs in the "Player Settings" section of Unity for each platform.
+The NexPlayer™ Plugin for Unity provides the build configuration window to set the
+build configuration for each platform in a fast and easy way.
 
-#### Android Platform:
+Open the window by clicking in the top context menu NexPlayer/Build Configuration
+Window.
 
-- To allow the application to have internet access for streaming videos, select the "Require" value for the "Internet Access" option in the Unity player settings.
-- Set "Write Permission" to External (SDcard)
-- Make sure to set a specific app ID under "Package Name" as required by Unity before compiling your application.
+<img  src="resources/unityimportinguide/BuildConfigurationWindow/Window.png" alt="Build Configuration Window" align="center"></img>
 
-#### iOS Platform:
+The window automatically detects and informs of any conflicts regarding the build
+configuration (graphics API, Internet settings...). The following messages will be shown if the build configuration is correct:
 
-- To view HTTP videos, enable "Allow downloads over HTTP" option.
-- After compilation, in XCode make sure to set a "Signing Team."
-- Under embedded binaries, click the "Plus" button and add:
-   - widevine_cdm_sdk_release.framework
-   - WidevineIntegration.framework
+<img  src="resources/unityimportinguide/BuildConfigurationWindow/Correct.png" alt="Build Configuration Window correct settings" align="center"></img>
 
-A quick and easy way to enable these settings is by using the helper component
-(NexEditorHelper.cs). If the helper component NexEditorHelper.cs is attached to any GameObject, it will include a graphics UI to
-auto detect any conflict regarding the graphics API, and it will promptly solve it.
+The following warning will be displayed if the build configuration is not correctly configured. The button will change the configuration automatically:
+
+<img  src="resources/unityimportinguide/BuildConfigurationWindow/Incorrect.png" alt="Build Configuration Window incorrect settings" align="center"></img>
 
 
 ## Frequently Asked Questions
