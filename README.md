@@ -85,12 +85,13 @@ We support the following features:
        <ul>
        <li>Adjustable Buffering Time</li>
        <li>Offline Streaming Playback for HLS & DASH</li>
-       <li>Multi View Streaming (Display Multiple Synchronized Streams)</li>
+       <li>Multi View (Display Multiple Synchronized Streams): Android & iOS</li>
        <li>WebVTT Subtitles & CEA-608/708 Closed Captions</li>
        <li>Multiple Audio & Subtitle Track Selection</li>
        <li>Spread Video Across Multiple Objects</li>
        <li>Content Information and Statistics (Audio & Video Bitrate, Codec, Average FPS, etc.)</li>
        <li>Transparency and Chroma Support</li>
+        <li>Metadata: ID3 tags</li>
        </ul>
      </td>
      </tr>
