@@ -4,7 +4,7 @@
 
 </br>
 
-<p align="center" style="border-style:solid"><a rel="noopener noreferrer"><img src="https://github.com/NexPlayer/NexPlayer_Unity_Plugin/blob/master/resources/Fortnite.gif"  width="70%" height="70%"></a>
+<p align="center" style="border-style:solid"><a rel="noopener noreferrer"><img src="https://github.com/NexPlayer/NexPlayer_Unity_Plugin/blob/master/resources/girl_cube_gif2.gif"  width="70%" height="70%"></a>
 
 NexPlayer™ for Unity is a cross-platform video streaming player for Unity games and apps that supports both regular and 360 video playback on Android, iOS, Windows, macOS, Nintendo Switch™, VR Headsets, and WebGL. NexPlayer's Unity video plugin is the only player supporting **Widevine DRM-protected** HLS & DASH streaming on **Android & iOS devices.**
 
