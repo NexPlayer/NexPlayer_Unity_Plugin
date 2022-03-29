@@ -254,7 +254,7 @@ To view the FAQ proceed to the [Unity Support Page](https://support.unity.com/hc
 
 
 ## Contact
-[support.madrid@nexplayer.com](mailto:support.madrid@nexplayer.com)
+[contact.unity@nexplayer.com](mailto:support.madrid@nexplayer.com)
 <br>+34 914 184 356
 <br>See you also at trade shows around the world!
 
