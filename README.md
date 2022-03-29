@@ -256,5 +256,10 @@ To view the FAQ proceed to the [Unity Support Page](https://support.unity.com/hc
 ## Contact
 [support.madrid@nexplayer.com](mailto:support.madrid@nexplayer.com)
 <br>+34 914 184 356
+</br>
+<p align="center" style="border-style:solid"><a rel="noopener noreferrer"><img src="https://github.com/NexPlayer/NexPlayer_Unity_Plugin/blob/master/resources/GDC.jpg"  width="70%" height="70%"></a>
 
-<font size="1"> Nintendo Switch is a trademark of Nintendo.</font>
+ 
+ 
+ </br>
+<font size="0.1"> Nintendo Switch is a trademark of Nintendo.</font>
