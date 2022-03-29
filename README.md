@@ -254,12 +254,11 @@ To view the FAQ proceed to the [Unity Support Page](https://support.unity.com/hc
 
 
 ## Contact
-[contact.unity@nexplayer.com](mailto:support.madrid@nexplayer.com)
+[unity.support@nexplayer.com](mailto:support.madrid@nexplayer.com)
 <br>+34 914 184 356
 <br>See you also at trade shows around the world!
 
-</br>
-<p align="center" style="border-style:solid"><a rel="noopener noreferrer"><img src="https://github.com/NexPlayer/NexPlayer_Unity_Plugin/blob/master/resources/GDC.jpg"  width="70%" height="70%"></a>
+<p align="center" style="border-style:solid"><a rel="noopener noreferrer"><img src="https://github.com/NexPlayer/NexPlayer_Unity_Plugin/blob/master/resources/GDC.jpg"  width="100%" height="100%"></a>
 
  
  
