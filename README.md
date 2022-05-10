@@ -268,3 +268,5 @@ To view the FAQ proceed to the [Unity Support Page](https://support.unity.com/hc
  <p>
 
 <sub><sup>Nintendo Switch is a trademark of Nintendo.</sup></sub>
+<br>
+<sub><sup>WebGL video player for Unity, Unity Video Player on WebGL, Play Video in Unity WebGL, HTML5 Video Player for Unity WebGL, Live Video in WebGL.</sub><sup>   
