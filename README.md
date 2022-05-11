@@ -269,4 +269,4 @@ To view the FAQ proceed to the [Unity Support Page](https://support.unity.com/hc
 
 <sub><sup>Nintendo Switch is a trademark of Nintendo.</sup></sub>
 <br>
-<sub><sup>WebGL video player, Video Player WebGL, Unity Video Player on WebGL, Play Video in Unity WebGL, HTML5 Video Player for Unity WebGL, Live Video in WebGL, 3D, UnityEngine.Video, UnityEngine.VideoModule, Unity Engine Video,  VideoPlayer.renderMode, renderheads/unityplugin, Video Player component - Unity, Playing Video in Unity, Best VR Video Player for Unity, VideoPlayer, VideoClip, AVPro Video, UE4, UE5, Advanced video playback for Unity.</sub><sup>   
+<sub><sup>WebGL video player, Video Player WebGL, Unity Video Player on WebGL, Unity Video Player Plugin, Play Video in Unity WebGL, HTML5 Video Player for Unity WebGL, Live Video in WebGL, 3D, UnityEngine.Video, UnityEngine.VideoModule, Unity Engine Video,  VideoPlayer.renderMode, renderheads/unityplugin, Video Player component - Unity, Playing Video in Unity, Best VR Video Player for Unity, UnityEngine.VideoPlayer, UnityEngine.VideoClip, AVPro Video, UE4, UE5, Advanced video playback for Unity, Unity Asset Store.</sub><sup>   
