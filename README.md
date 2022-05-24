@@ -90,7 +90,7 @@ We support the following features:
        <li>Transparency and Chroma Support</li>
         <li>Metadata: ID3 tags</li>
         <li>Audio PCM data</li>
-        <li>Connect AudioSource to Unity</li>
+        <li>AudioSource piping to Unity</li>
        </ul>
      </td>
      </tr>
