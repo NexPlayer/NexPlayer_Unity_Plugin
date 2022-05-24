@@ -89,6 +89,8 @@ We support the following features:
        <li>Content Information and Statistics (Audio & Video Bitrate, Codec, Average FPS, etc.)</li>
        <li>Transparency and Chroma Support</li>
         <li>Metadata: ID3 tags</li>
+        <li>Audio PCM data</li>
+        <li>Connect AudioSource to Unity</li>
        </ul>
      </td>
      </tr>
@@ -268,4 +270,4 @@ To view the FAQ proceed to the [Unity Support Page](https://support.unity.com/hc
 
 <sub><sup>Nintendo Switch is a trademark of Nintendo.</sup></sub>
 <br>
-<sub><sup>WebGL video player, Video Player WebGL, Unity Video Player on WebGL, Unity Video Player Plugin, Play Video in Unity WebGL, HTML5 Video Player for Unity WebGL, Live Video in WebGL, 3D, UnityEngine.Video, UnityEngine.VideoModule, Unity Engine Video,  VideoPlayer.renderMode, renderheads/unityplugin, Video Player component - Unity, Playing Video in Unity, Best VR Video Player for Unity, UnityEngine.VideoPlayer, UnityEngine.VideoClip, Metaverse, Advanced video playback for Unity, Unity Asset Store, Immersive 360 video experience, Augmented, Mixed, Virtual Reality, Oculus Quest, Oculus Quest2, Meta Quest, Gear VR, Google Cardboard, Daydream, HTC Vive Focus, Pico Goblin & Neo, Electronic Dance Music.</sub><sup>   
+<sub><sup>WebGL video player, Video Player WebGL, Unity Video Player on WebGL, Unity Video Player Plugin, Play Video in Unity WebGL, HTML5 Video Player for Unity WebGL, Live Video in WebGL, 3D, UnityEngine.Video, UnityEngine.VideoModule, Unity Engine Video,  VideoPlayer.renderMode, renderheads/unityplugin, Video Player component - Unity, Playing Video in Unity, Best VR Video Player for Unity, UnityEngine.VideoPlayer, UnityEngine.VideoClip, Metaverse, Advanced video playback for Unity, Unity Asset Store, Immersive 360 video experience, Augmented, Mixed, Virtual Reality, Oculus Quest, Oculus Quest2, Meta Quest, Gear VR, Google Cardboard, Daydream, HTC Vive Focus, Pico Goblin & Neo, Electronic Dance Music, Audio PCM data, Piping audiosource to Unity.</sub><sup>   
