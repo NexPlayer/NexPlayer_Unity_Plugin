@@ -6,7 +6,7 @@
 
 <p align="center" style="border-style:solid"><a rel="noopener noreferrer"><img src="https://github.com/NexPlayer/NexPlayer_Unity_Plugin/blob/master/resources/Marshmello.gif"  width="640px%" height="320px%"></a>
 
-NexPlayer™ for Unity is a cross-platform video streaming player for Unity games and apps that supports both regular and 360 video playback on Android, iOS, Windows, macOS, Nintendo Switch™, VR Headsets, and WebGL. NexPlayer's Unity video plugin is the only player supporting **Widevine DRM-protected** HLS & DASH streaming on **Android & iOS devices.**
+NexPlayer™ for Unity is a cross-platform video streaming player for Unity games and apps that supports both regular and 360 video playback on Android, iOS, Windows, macOS, Nintendo Switch™, Xbox Series X/S, VR Headsets, and WebGL. NexPlayer's Unity video plugin is the only player supporting **Widevine DRM-protected** HLS & DASH streaming on **Android & iOS devices.**
 
 This repository contains the NexPlayer™ Unity video streaming player plugin features list as well as an installation guide. If you want to get a copy of our fully working demo, contact us at our [website](https://www.nexplayersdk.com/unity-player-sdk-demo/?utm_source=github.com&utm_medium=referral&utm_campaign=unitygithub&utm_content=20200211--unitydemocontact).
 
@@ -123,6 +123,7 @@ We support the following features:
 |macOS|Metal|:heavy_check_mark:||:heavy_check_mark:|:heavy_check_mark:|
 |HTML 5|WebGL 1.0 / WebGL 2.0|:heavy_check_mark:|:heavy_check_mark:|||
 |Nintendo Switch|NVN|:heavy_check_mark:|:heavy_check_mark:|||
+|Xbox Series X/S| DirectX11 / DirectX12 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 
 ## Demo Installation Guide
 
