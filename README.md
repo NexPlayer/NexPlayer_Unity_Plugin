@@ -124,6 +124,7 @@ We support the following features:
 |HTML 5|WebGL 1.0 / WebGL 2.0|:heavy_check_mark:|:heavy_check_mark:|||
 |Nintendo Switch|NVN|:heavy_check_mark:|:heavy_check_mark:|||
 |Xbox Series X/S| DirectX11 / DirectX12 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+|UWP| DirectX11 / DirectX12 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 
 ## Demo Installation Guide
 
@@ -271,4 +272,4 @@ To view the FAQ proceed to the [Unity Support Page](https://support.unity.com/hc
 
 <sub><sup>Nintendo Switch is a trademark of Nintendo.</sup></sub>
 <br>
-<sub><sup>WebGL video player, Video Player WebGL, Unity Video Player on WebGL, Unity Video Player Plugin, Play Video in Unity WebGL, HTML5 Video Player for Unity WebGL, Live Video in WebGL, 3D, UnityEngine.Video, UnityEngine.VideoModule, Unity Engine Video,  VideoPlayer.renderMode, renderheads/unityplugin, Video Player component - Unity, Playing Video in Unity, Best VR Video Player for Unity, UnityEngine.VideoPlayer, UnityEngine.VideoClip, Metaverse, Advanced video playback for Unity, Unity Asset Store, Immersive 360 video experience, Augmented, Mixed, Virtual Reality, Oculus Quest, Oculus Quest2, Meta Quest, Gear VR, Google Cardboard, Daydream, HTC Vive Focus, Pico Goblin & Neo, Electronic Dance Music, Audio PCM data, Audio piping to Unity, Audio Source to Unity, Adding audio to your Unity scene.</sub><sup>   
+<sub><sup>WebGL video player, Video Player WebGL, Unity Video Player on WebGL, Unity Video Player Plugin, Play Video in Unity WebGL, HTML5 Video Player for Unity WebGL, Live Video in WebGL, 3D, UnityEngine.Video, UnityEngine.VideoModule, Unity Engine Video,  VideoPlayer.renderMode, renderheads/unityplugin, Video Player component - Unity, Playing Video in Unity, Best VR Video Player for Unity, UnityEngine.VideoPlayer, UnityEngine.VideoClip, Metaverse, Advanced video playback for Unity, Unity Asset Store, Immersive 360 video experience, Augmented, Mixed, Virtual Reality, Oculus Quest, Oculus Quest2, Meta Quest, Gear VR, Google Cardboard, Daydream, HTC Vive Focus, Pico Goblin & Neo, Electronic Dance Music, Audio PCM data, Audio piping to Unity, Audio Source to Unity, Adding audio to your Unity scene, UWP, Windows, Playback raw PCM, How to play .pcm file, Gets PCM audio data.</sub><sup>   
