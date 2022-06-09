@@ -6,7 +6,7 @@
 
 <p align="center" style="border-style:solid"><a rel="noopener noreferrer"><img src="https://github.com/NexPlayer/NexPlayer_Unity_Plugin/blob/master/resources/Marshmello.gif"  width="640px" height="320px"></a>
 
-NexPlayer™ for Unity is a cross-platform video streaming player for Unity games and apps that supports both regular and 360 video playback on Android, iOS, Windows, macOS, Nintendo Switch™, Xbox Series X/S, VR Headsets, Universal Windows Platform (UWP) and WebGL. NexPlayer's Unity video plugin is the only player supporting **Widevine DRM-protected** HLS & DASH streaming on **Android & iOS devices.**
+NexPlayer™ for Unity is a cross-platform video streaming player for Unity games and apps that supports both regular and 360 video playback on Android, iOS, Windows, macOS, Nintendo Switch™, Xbox One, Series X/S, VR Headsets, Universal Windows Platform (UWP) and WebGL. NexPlayer's Unity video plugin is the only player supporting **Widevine DRM-protected** HLS & DASH streaming on **Android & iOS devices.**
 
 This repository contains the NexPlayer™ Unity video streaming player plugin features list as well as an installation guide. If you want to get a copy of our fully working demo, contact us at our [website](https://www.nexplayersdk.com/unity-player-sdk-demo/?utm_source=github.com&utm_medium=referral&utm_campaign=unitygithub&utm_content=20200211--unitydemocontact).
 
@@ -123,7 +123,7 @@ We support the following features:
 |macOS|Metal|:heavy_check_mark:||:heavy_check_mark:|:heavy_check_mark:|
 |HTML 5|WebGL 1.0 / WebGL 2.0|:heavy_check_mark:|:heavy_check_mark:|||
 |Nintendo Switch|NVN|:heavy_check_mark:|:heavy_check_mark:|||
-|Xbox Series X/S| DirectX11 / DirectX12 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+|Xbox One, Series X/S| DirectX11 / DirectX12 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 |[UWP](https://docs.microsoft.com/en-us/windows/uwp/audio-video-camera/supported-codecs)| DirectX11 / DirectX12 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 
 ## Demo Installation Guide
@@ -273,4 +273,4 @@ To view the FAQ proceed to the [Unity Support Page](https://support.unity.com/hc
 <sub><sup>Nintendo Switch is a trademark of Nintendo.</sup></sub>
 <br>
 <sub><sup>WebGL, Video Player WebGL, Unity Video Player on WebGL, Unity Video Player Plugin, Play Video in Unity WebGL, HTML5 Video Player for Unity WebGL, Live Video in WebGL, 3D, UnityEngine.Video, UnityEngine.VideoModule, Unity Engine Video, VideoPlayer.renderMode, renderheads/unityplugin, Video Player component - Unity, Playing Video in Unity, Best VR Video Player for Unity, UnityEngine.VideoPlayer, UnityEngine.VideoClip, Metaverse, Advanced video playback for Unity, Unity Asset Store, Immersive 360 video experience, Augmented, Mixed, Virtual Reality, Oculus Quest, Oculus Quest2, Hololense Meta Quest, Gear VR, Google Cardboard, Daydream, HTC Vive Focus, Pico Goblin & Neo, EDM, Electronic Dance Music, Audio PCM data, Audio piping to Unity, Audio Source to Unity, Adding audio to your Unity scene, UWP, Windows, Playback raw PCM, How to play .pcm file, Gets PCM audio data, Unity3D.</sub><sup>   
-<sub><sup>Unity Xbox video player, Xbox Series X/S live, PCM audio, Playing Video in Unity.</sub><sup> 
+<sub><sup>Unity Xbox video player, Xbox One S, Xbox One X, Series X/S live, Xbox, PCM audio, Playing Video in Unity.</sub><sup> 
