@@ -14,9 +14,9 @@ This repository contains the NexPlayer™ Unity video streaming player plugin fe
 
 <p style="margin-left:auto;margin-right:auto" width="300px" align="left">Our Unity video plugin allows the introduction of new exciting scenes within your Unity projects. With our plugin, you can use in-game actions and objects to modify video content.</p>
  
-<p align="center" style="border-style:solid"><a rel="noopener noreferrer"><img src="https://github.com/NexPlayer/NexPlayer_Unity_Plugin/blob/master/resources/interactive.gif"  width="95%" height="95%"></a>
+<p align="center" style="border-style:solid"><a rel="noopener noreferrer"><img src="https://github.com/NexPlayer/NexPlayer_Unity_Plugin/blob/master/resources/Interactivity_03.gif"  width="95%" height="95%"></a>
 </p> 
-<p align="center"><b>Play videos on any Unity Game Object</b></p> 
+<p align="center"><b>Render videos on any Unity GameObject</b></p> 
 <br> 
  
 <p align="center" style="border-style:solid"><a rel="noopener noreferrer"><img src="https://github.com/NexPlayer/NexPlayer_Unity_Plugin/blob/master/resources/betting.gif" alt="NexPlayer for Unity Video Player Sample Interface" width="100%" height="100%"></a>
