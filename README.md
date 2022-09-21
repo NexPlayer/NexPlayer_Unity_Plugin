@@ -135,7 +135,7 @@ We support the following features:
 ### Using NexPlayerSimple
 
 NexPlayerSimple is a slimmed down version of our full-featured example player,
-NexPlayer. You can use it by following this steps:
+NexPlayer. You can use it by following these steps:
 
 1. To add video playback to your scene, you will need to add a NexPlayerSimple
 component to your scene:
@@ -146,7 +146,7 @@ Object" align="center"></img></p>
    2. This will add a new GameObject (NexPlayerSimple) to your scene,
 which will contain the NexPlayerSimple component along with the
 NexPlayerRenderController component.
-2. NexPlayersimple supports any of the three supported RenderModes
+2. NexPlayerSimple supports any of the three supported RenderModes
 (RawImage, RenderTexture and Material Override). Using the inspector in the
 NexPlayerRenderController component, select the desired Render Mode and
 set the reference to that Render Object.
