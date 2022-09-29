@@ -127,6 +127,8 @@ We support the following features:
 |HoloLens| DirectX11 / DirectX12 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 |[UWP](https://docs.microsoft.com/en-us/windows/uwp/audio-video-camera/supported-codecs)| DirectX11 / DirectX12 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 
+The complete documentation can be found [here](https://nexplayer.github.io/Unity-SDK/#/).
+
 ## Demo Installation Guide
 
 <p>Create or open an <a href="https://unity3d.com/">Unity</a> project and import the NexPlayer™ Unity video streaming player plugin.</p>
@@ -248,7 +250,6 @@ configuration (graphics API, Internet settings...). The following messages will 
 The following warning will be displayed if the build configuration is not correctly configured. The button will change the configuration automatically:
 
 <img  src="resources/unityimportinguide/BuildConfigurationWindow/Incorrect.png" alt="Build Configuration Window incorrect settings" align="center"></img>
-
 
 ## Frequently Asked Questions
 
