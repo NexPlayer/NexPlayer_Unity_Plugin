@@ -127,7 +127,7 @@ We support the following features:
 |HoloLens| DirectX11 / DirectX12 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 |[UWP](https://docs.microsoft.com/en-us/windows/uwp/audio-video-camera/supported-codecs)| DirectX11 / DirectX12 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 
-The complete documentation can be found [here](https://nexplayer.github.io/Unity-SDK/#/).
+
 
 ## Demo Installation Guide
 
