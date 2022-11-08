@@ -28,8 +28,8 @@ This repository contains the NexPlayer™ Unity video streaming player plugin fe
 
 | | |
 |:-------------------------:|:-------------------------:|
-<img src="https://github.com/NexPlayer/NexPlayer_Unity_Plugin/blob/master/resources/Pluto TV Gif.gif"  width="100%" height="100%"> Pluto TV immersive experience in VR| <img src="https://github.com/NexPlayer/NexPlayer_Unity_Plugin/blob/master/resources/Party-On.gif"  width="100%" height="100%"> PartyOn immmerse in the music metaverse|
-<img src="https://github.com/NexPlayer/NexPlayer_Unity_Plugin/blob/master/resources/AEON-Gif.gif"  width="100%" height="100%"> GREE, Inc. a virtual cinema platform|<img src="https://github.com/NexPlayer/NexPlayer_Unity_Plugin/blob/master/resources/web3.0.gif"  width="100%" height="100%"> WebGL: Browser-based metaverses, blockchain|
+<img src="https://github.com/NexPlayer/NexPlayer_Unity_Plugin/blob/master/resources/Pluto TV Gif.gif"  width="100%" height="100%"> Pluto TV immersive experience in VR| <img src="https://github.com/NexPlayer/NexPlayer_Unity_Plugin/blob/master/resources/Party-On.gif"  width="95%" height="95%"> PartyOn immmerse in the music metaverse|
+<img src="https://github.com/NexPlayer/NexPlayer_Unity_Plugin/blob/master/resources/AEON-Gif.gif"  width="100%" height="100%"> GREE, Inc. a virtual cinema platform|<img src="https://github.com/NexPlayer/NexPlayer_Unity_Plugin/blob/master/resources/web3.0.gif"  width="95%" height="95%"> WebGL: Browser-based metaverses, blockchain|
 
 ## Table of Contents
 
