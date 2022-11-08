@@ -24,6 +24,13 @@ This repository contains the NexPlayer™ Unity video streaming player plugin fe
 <p align="center"><b>Multi Streaming</b></p><br> 
 
 
+## [Our Unity Use Cases](https://nexplayersdk.com/contact-nexplayer-metaverse/)
+
+| | |
+|:-------------------------:|:-------------------------:|
+<img src="https://github.com/NexPlayer/NexPlayer_Unity_Plugin/blob/master/resources/Pluto TV Gif.gif"  width="100%" height="100%"> Pluto TV immersive experience in VR| <img src="https://github.com/NexPlayer/NexPlayer_Unity_Plugin/blob/master/resources/Party-On.gif"  width="100%" height="100%"> PartyOn immmerse in the music metaverse|
+<img src="https://github.com/NexPlayer/NexPlayer_Unity_Plugin/blob/master/resources/AEON-Gif.gif"  width="100%" height="100%"> GREE, Inc. a virtual cinema platform|<img src="https://github.com/NexPlayer/NexPlayer_Unity_Plugin/blob/master/resources/web3.0.gif"  width="100%" height="100%"> WebGL: Browser-based metaverses, blockchain|
+
 ## Table of Contents
 
 * **[Features](#features)**  
